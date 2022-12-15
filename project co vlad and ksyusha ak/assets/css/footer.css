@@ -97,13 +97,18 @@
 .footer__btn {
     border: 1px solid #333333;
     width: 186px;
-    padding: 10px 36px 14px 36px;
+    padding: 14px 36px;
     font-family: 'Neris';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #333333;
     cursor: pointer;
+}
+.footer__btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .1s;
 }
 .block1 {
     position: relative;
