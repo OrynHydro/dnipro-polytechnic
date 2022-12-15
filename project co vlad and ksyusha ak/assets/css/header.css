@@ -53,6 +53,7 @@
 }
 
 .header__social-item {
+    color: #ccc;
     padding-right: 17px;
     opacity: 1;
 }
@@ -102,6 +103,10 @@
     font-size: 14px;
 }
 
+.headerbottom__menu-item:hover {
+    font-weight:500;
+    color: #093864;
+}
 
 
 
