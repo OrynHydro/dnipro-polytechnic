@@ -4,3 +4,13 @@
     box-sizing: border-box;
 }
 
+.wrap {
+    width: 1204px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}

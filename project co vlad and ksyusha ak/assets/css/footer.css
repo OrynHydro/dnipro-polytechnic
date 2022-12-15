@@ -1,0 +1,128 @@
+.footer {
+    width: 100vw;
+    align-items: center;
+    background: #fff;
+    justify-content: center;
+}
+.footer__top {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__wrap {
+    width: 795px;
+    margin: 0 auto;
+    padding: 23px;
+}
+.footer__top-container,
+.footer__bottom-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom-container {
+    border-top:1px solid #D2D2D2;
+    justify-content: space-around;
+}
+.footer__top-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer__top-menu-item {
+    display: flex;
+    font-family: 'Neris';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+.footer__top-menu-item:hover {
+    color: #093864;
+}
+
+.footer__bottom {
+    display: flex;
+    width: 100%;
+}
+.footer__Block-info {
+    margin-left: 32px;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  
+}
+.footer__logo {
+    display: flex;
+    width: 136px;
+    height: 54px;
+}
+.footer__siteMap {
+    margin-top: 18px;
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #093864;
+}
+.copi {
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #363636;
+}
+.footer__Block-title {
+    display: flex;
+    font-family: 'Neris';
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #363636;
+    margin-bottom: 36px;
+}
+.footer__adress {
+    display: flex;
+    width: 178px;
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #606060;
+}
+.footer__btn {
+    border: 1px solid #333333;
+    width: 186px;
+    padding: 10px 36px 14px 36px;
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    cursor: pointer;
+}
+.block1 {
+    position: relative;
+    top: -13px;
+}
+.footer__block-social {
+    display: flex;
+    gap: 20px;
+}
+.social__item i {
+    font-size: 24px;
+    color: #E4E4E4;
+}
+.instagram i:hover {
+    color: #08446D;
+}
+.facebook i:hover {
+    color: #08446D;
+}
+.youtube i:hover {
+    color: red;
+}
