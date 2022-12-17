@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background: #FBFBFB;
+}
 .wrap {
     width: 1204px;
     margin: 0 auto;
 }
-
 button {
     cursor: pointer;
     background: transparent;

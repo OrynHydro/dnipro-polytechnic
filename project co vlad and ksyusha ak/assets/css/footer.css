@@ -24,6 +24,7 @@
 .footer__bottom-container {
     border-top:1px solid #D2D2D2;
     justify-content: space-around;
+    margin-bottom: 54px;
 }
 .footer__top-menu {
     display: flex;
