@@ -56,6 +56,13 @@
     flex-direction: column;
     gap: 5px;  
 }
+.contactsBlock a {
+    color: #333333;
+    text-decoration: none;
+}
+.contactsBlock a:hover {
+    color: rgb(0, 0, 255);
+}
 .footer__logo {
     display: flex;
     width: 136px;
