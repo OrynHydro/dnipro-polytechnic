@@ -1,0 +1,99 @@
+.main__thirdPage {
+    width: 100vw;
+    margin-top: 56px;
+    /* align-items: center; */
+}
+.main__thirdPage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 78px;
+}
+.main__thirdPage-block img {
+    width: 254px;
+    height: 342px;
+}
+.main__thirdPage-title {
+    text-align: center;
+    font-family: 'Neris';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+}
+.main__thirdPage-block {
+    display: flex;
+    margin-top: 42px;
+}
+.main__thirdPage-column {
+    position: relative;
+    left: -43px;
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+    margin-left:60px;
+}
+.main__thirdPage-blockItem {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+}
+.main__thirdPage-blockItem:hover {
+    transform: scale(1.1);
+    transition-duration:0.1s;
+    transition-delay: .05s;
+    cursor: pointer;
+}
+.main__thirdPage-content {
+    width: 271px;
+    margin-left: 35px;
+    margin-top: 37px;
+}
+.main__thirdPage-position {
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212121;
+}
+.main__thirdPage-name {
+    margin-top: 9px;
+    font-family: 'Neris';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+}
+.main__thirdPage-grades {
+    display: inline-block;
+    width: 240px;
+    margin-top: 18px;
+    font-family: 'Neris';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #8A8A8A;
+}
+.main__thirdPage-contacts {
+    display: flex;
+    margin-top: 50px;
+    gap: 28px;
+}
+.main__thirdPage-contactsBlock-title {
+    font-family: 'Neris';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150.5%;
+    color: #8A8A8A;
+}
+.main__thirdPage-contactsBlock-content {
+    margin-top: 5px;
+    font-family: 'Neris';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150.5%;
+    color: #000000;
+}
