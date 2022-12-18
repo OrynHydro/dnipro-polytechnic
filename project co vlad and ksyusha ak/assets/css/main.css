@@ -47,25 +47,59 @@
 }
 
 .details__navpart-item:hover .overlay {
-    
+    opacity: .77;
 }
-.details__navpart-item button {
-    width: 127px;
-    height: 32px;
-    border: 1px solid #000;
-    color: #000;
-    font-weight: 400;
-    font-size: 13px;
+
+.details__navpart-item:hover .overlay2 {
+    opacity: .77;
 }
+
+.details__navpart-item:hover .overlay3 {
+    opacity: .77;
+}
+
 
 .overlay {
     position: absolute;
-    top: 202px;
+    top: 274px;
     width: 251px;
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background: #025784;
+    background: rgba(2, 87, 132, 0.77);
+    border: 1px solid #025784;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 536px;
+    width: 251px;
+    height: 146px;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(2, 87, 132, 0.77);
+    border: 1px solid #025784;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 777px;
+    width: 251px;
+    height: 146px;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(2, 87, 132, 0.77);
+    border: 1px solid #025784;
+}
+
+.details__navpart-item button {
+    width: 97px;
+    height: 32px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 58px 77px 56px 77px;
 }
 
 .details__navpart-item h1:hover {
