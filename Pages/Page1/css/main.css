@@ -61,6 +61,13 @@ body{
     align-items: center;
     padding: 60px 0px;
 }
+
+.news__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .news__title {
     color: #005F91;
     display: flex;
