@@ -27,11 +27,11 @@
 }
 .main__thirdPage-column {
     position: relative;
-    left: -43px;
+    left: -50px;
     display: flex;
     flex-direction: column; 
-    gap: 50px;
-    margin-left:60px;
+    gap: 70px;
+    margin-left:80px;
 }
 .main__thirdPage-blockItem {
     display: flex;
