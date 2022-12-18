@@ -1,7 +1,6 @@
 .main__thirdPage {
     width: 100vw;
     margin-top: 56px;
-    /* align-items: center; */
 }
 .main__thirdPage-container {
     width: 100%;
@@ -43,7 +42,12 @@
     transform: scale(1.1);
     transition-duration:0.1s;
     transition-delay: .05s;
-    cursor: pointer;
+}
+.main__thirdPage-content a {
+    color: #000;
+}
+.main__thirdPage-content a:hover {
+    color: rgb(0, 0, 255);
 }
 .main__thirdPage-content {
     width: 271px;
@@ -80,7 +84,8 @@
     margin-top: 50px;
     gap: 28px;
 }
-.main__thirdPage-contactsBlock-title {
+.main__thirdPage-contact-title {
+    margin-top: 5px;
     font-family: 'Neris';
     font-style: normal;
     font-weight: 400;
@@ -88,7 +93,7 @@
     line-height: 150.5%;
     color: #8A8A8A;
 }
-.main__thirdPage-contactsBlock-content {
+.main__thirdPage-contact-content {
     margin-top: 5px;
     font-family: 'Neris';
     font-style: normal;
