@@ -1,4 +1,4 @@
-.header {
+header {
     display: block;
     width: 100%;
     height: 166px;
@@ -76,6 +76,7 @@
     padding: 17.48px 53.66px 16.48px 53.66px;
 }
 
+
 .headertop__btn:hover {
     color: #005f91;
     background: #ccc;
@@ -89,6 +90,8 @@
     height: 55px;
 }
 
+/* Headerbottom menu */
+
 .headerbottom__menu {
     padding-top: 16px ;
     display: flex;
@@ -96,18 +99,7 @@
     align-items: center;
 }
 
-.headerbottom__menu-item {
-    color: #373737;
-    font-weight: 400;
-    line-height: 18.76px;
-    font-size: 14px;
-}
 
-
-.headerbottom__menu-item:hover {
-    font-weight:600;
-    color: #093864;
-}
 
 
 
