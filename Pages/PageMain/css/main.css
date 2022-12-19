@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/assets/images/img/Page1_main__img.svg") no-repeat;
+    background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat;
     background-size: cover;
 }
 
