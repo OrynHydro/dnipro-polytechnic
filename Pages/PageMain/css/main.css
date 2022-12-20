@@ -135,11 +135,18 @@ body{
 }
 
 .news__btn {
-    background: #005F91;
+    background: #005F91; 
     color: #FFFFFF;
     padding: 16px 84px;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     margin: 0px auto;
+
+    transition: background 2s cubic-bezier(.37,.9,.7,.26);
+}
+
+.news__btn:hover {
+    background: #FFFFFF;
+    color: #005F91;
 }
