@@ -69,22 +69,24 @@ header {
 }
 
 .header__lang {
+    cursor: pointer;
     text-transform: uppercase;
     margin: 20px -20px 0 0;
 }
 
 .chooselang__menu {
     cursor: pointer;
-    width: 40px;
+    width: 33px;
     height: 60px;
     margin-left: -4px;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 
 .chooselang__menu-item {
     color: #fff;
-    background: #093864;
+    background: lightgrey;
 }
 
 

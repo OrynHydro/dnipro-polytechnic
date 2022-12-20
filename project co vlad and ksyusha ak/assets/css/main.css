@@ -187,8 +187,7 @@
 }
 
 .header__infopart span {
-    position: relative;
-    left: 119px;
+    margin-left: 119px;
     color: #a3a3a3;
     font-weight: 400;
     font-size: 13px;
