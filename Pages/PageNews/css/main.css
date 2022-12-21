@@ -23,6 +23,7 @@
 .details__navpart-item {
     margin-top: 36px;
     display: block;
+    cursor: pointer;
 }
 
 .h1h50 {
@@ -104,6 +105,11 @@
     margin: 58px 77px 56px 77px;
 }
 
+.details__navpart-item button:hover {
+    background:rgba(2, 87, 132, 0.77);
+    color: #fff;
+}
+
 .details__navpart-item h1:hover {
     color: #005F91;
 }
@@ -161,7 +167,6 @@
 }
 
 .details_imgsett3 {
-    display: block;
     margin: 49px 0 52px 0;
 }
 
@@ -182,8 +187,7 @@
 }
 
 .header__infopart span {
-    position: relative;
-    left: 119px;
+    margin-left: 119px;
     color: #a3a3a3;
     font-weight: 400;
     font-size: 13px;
