@@ -56,6 +56,14 @@ body{
     font-size: 17px;
     line-height: 23px;
     border: 1px solid #FFFFFF;
+
+    transition: background 0.3s cubic-bezier(.37,.9,.7,.2);
+}
+
+.main__block-btn:hover {
+    background: #FFFFFF;
+    border: 0;
+    color: #093864;
 }
 
 .news {
@@ -96,20 +104,14 @@ body{
     display: flex;
     /* justify-content: center; */
     background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 4px 20px #0000000f;
     width: 577px;
-    /* margin: 0px 63px 54px 0px; */
 }
-
-/* .news__block-item:nth-child(2n) {
-    margin: 0px 0px 54px 0px;
-} */
 
 .news__block-img {
     width: 264px;
     height: 318px;
 }
-
 
 .news__block-text {
     height: 102px;
@@ -143,6 +145,12 @@ body{
     margin: 17px 0px;
 }
 
+.news__block-btn:hover {
+    background: #005F91;
+    border: 1px solid #005F91;
+    color: #FFFFFF;
+}
+
 .news__block-date {
     color: #898888;
     display: flex;
@@ -155,16 +163,21 @@ body{
 .news__btn {
     background: #005F91; 
     color: #FFFFFF;
-    padding: 16px 84px;
+    padding: 15px 83px;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     margin: 0px auto;
+    margin-bottom: 1px;
+    border: 1px solid transparent;
 
-    transition: background 2s cubic-bezier(.37,.9,.7,.26);
+    transition: background 0.3s cubic-bezier(.37,.9,.7,.2);
 }
 
-.news__btn:hover {
+.news__btn:hover{
     background: #FFFFFF;
     color: #005F91;
+    box-sizing: inherit;
+    border: 1px solid #005F91;
 }
+
