@@ -86,6 +86,11 @@
     margin-top: 20px;
 }
 
+.specialties__body-item:last-child {
+    border: none;
+    padding-bottom: 0px;
+}
+
 .specialties__body-subtitle {
     font-family: 'Neris';
     font-style: normal;
