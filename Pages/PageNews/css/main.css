@@ -95,17 +95,19 @@
     border: 1px solid #025784;
 }
 
-.details__navpart-item button {
-    width: 97px;
-    height: 32px;
+.details__navpart-item a {
     border: 1px solid #fff;
     color: #fff;
     font-weight: 400;
     font-size: 13px;
-    margin: 58px 77px 56px 77px;
+    padding: 4px 21px 6px 21px;
+    position: relative;
+    position: relative;
+    top: 58px;
+    left: 77px;
 }
 
-.details__navpart-item button:hover {
+.details__navpart-item a:hover {
     background:rgba(2, 87, 132, 0.77);
     color: #fff;
 }
@@ -125,12 +127,11 @@
 .detailsnav__button {
     margin-top: 18px;
     width: 127px;
-    height: 32px;
     border: 1px solid #000;
     color: #000;
     font-weight: 400;
     font-size: 13px;
-    padding: 5px 0 7px 0;
+    padding: 5px 0 7px 28px;
 }
 
 .detailsnav__button:hover {

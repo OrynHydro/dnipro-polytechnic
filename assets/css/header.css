@@ -59,12 +59,19 @@ header {
 }
 
 .header__lang-p {
+    display: block;
+    width: 50px;
     color: #093864;
     font-size: 15px;
     font-weight: 400;
 }
 
-.header__lang-p:hover + .chooselang__menu {
+.chooselang__menu .header__lang-p:hover {
+    background: #093864;
+    color: #fff;
+}
+
+.header__lang:hover .chooselang__menu {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     display: block;
 }
@@ -77,19 +84,8 @@ header {
 
 .chooselang__menu {
     cursor: pointer;
-    width: 33px;
-    height: 60px;
-    margin-left: -4px;
-    text-align: center;
     display: none;
-    cursor: pointer;
 }
-
-.chooselang__menu-item {
-    color: #fff;
-    background: lightgrey;
-}
-
 
 .headertop__btn {
     color: #fff;
@@ -97,7 +93,7 @@ header {
     font-weight: 400;
     line-height: 19px;
     background: #005f91;
-    padding: 17.48px 53.66px 16.48px 53.66px;
+    padding: 18.48px 53.66px 16.48px 53.66px;
 }
 
 
@@ -113,87 +109,31 @@ header {
 /* Headerbottom menu */
 
 .header__container__bottom {
-    display: block;
+    display: flex;
     height: 55px;
     width: 100%;
+    justify-content: space-between;
 }
 
-.headerbottom__menu {
-    margin-top: 16px;
+.header__bottom__menu-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: #373737;
-    cursor: pointer;
 }
 
-.headerbottom__menu-item1,
-.headerbottom__menu-item2,
-.headerbottom__menu-item3,
-.headerbottom__menu-item4,
-.headerbottom__menu-item5,
-.headerbottom__menu-item6,
-.headerbottom__menu-item7,
-.headerbottom__menu-item8,
-.headerbottom__menu-item9 {
+.menu-item__text {
     color: #373737;
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
 }
 
-.menu__navigation2 {
-    margin-left: 150px;
-}
-
-.menu__navigation3 {
-    margin-left: 310px;
-}
-
-.menu__navigation4 {
-    margin-left: 478px;
-}
-
-.menu__navigation5 {
-    margin-left: 672px;
-}
-.menu__navigation6 {
-    margin-left: 786px;
-}
-.menu__navigation7 {
-    margin-left: 888px;
-}
-.menu__navigation8 {
-    margin-left: 1043px;
-}
-.menu__navigation9 {
-    margin-left: 1156px;
-}
-
-.headerbottom__menu-item1:hover,
-.headerbottom__menu-item2:hover,
-.headerbottom__menu-item3:hover,
-.headerbottom__menu-item4:hover,
-.headerbottom__menu-item5:hover,
-.headerbottom__menu-item6:hover,
-.headerbottom__menu-item7:hover,
-.headerbottom__menu-item8:hover,
-.headerbottom__menu-item9:hover {
+.menu-item__text:hover {
     color: #093864;
     font-weight: 449.99;
 }
 
-.menu__navigation1,
-.menu__navigation2,
-.menu__navigation3,
-.menu__navigation4,
-.menu__navigation5,
-.menu__navigation6,
-.menu__navigation7,
-.menu__navigation8,
-.menu__navigation9 {
+.menu__navigation {
     width: 308px;
-    height: 214px;
     background: #fff;
     position: absolute;
     top: 166px;
@@ -201,15 +141,7 @@ header {
     z-index: 3;
 }
 
-.headerbottom__menu-item1:hover + .menu__navigation1,
-.headerbottom__menu-item2:hover + .menu__navigation2,
-.headerbottom__menu-item3:hover + .menu__navigation3,
-.headerbottom__menu-item4:hover + .menu__navigation4,
-.headerbottom__menu-item5:hover + .menu__navigation5,
-.headerbottom__menu-item6:hover + .menu__navigation6,
-.headerbottom__menu-item7:hover + .menu__navigation7,
-.headerbottom__menu-item8:hover + .menu__navigation8,
-.headerbottom__menu-item9:hover + .menu__navigation9 {
+.header__bottom__menu-item:hover  .menu__navigation {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: block;
 }
@@ -219,23 +151,25 @@ header {
     flex-direction: column;
 }
 
-.navBlock hr {
-    border: 1px solid #dfdfdf;
-    width: 261px;
-    margin-left: 22px;
-}
-
 .navBlock-item {
-    width: 308px;
-    height: 51px;
-    padding: 15px 0 11px 19px;
+    display: block;
+    height: 44px;
+    padding: 11px 0 11px 19px;
     color: #373737;
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
 }
 
-.navBlock-item:first-child {
+.navBlock li {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.navBlock li:last-child {
+    border-bottom: none;
+}
+
+.navBlock-item:hover {
     background: #005f91;
     color: #fff;
 }
