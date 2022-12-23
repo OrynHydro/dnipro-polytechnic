@@ -156,13 +156,18 @@
     align-items: center;
     border: none;
 }
+.main__fourthPage-blockItem:hover path {
+    fill: #005F91;
+    transition-duration: .1s;
+    transition-delay: .05s;
+}
 .main__fourthPage-blockItem:hover {
     transform: scale(1.11);
     transition-duration: .1s;
     transition-delay: .05s;
     cursor: pointer;
 }
-.main__fourthPage-blockItem img {
+.main__fourthPage-blockItem svg {
     margin-left: 44px;
 }
 .main__fourthPage-content {
@@ -183,19 +188,19 @@
     position: relative;
     left: 146px;
 }
-.main__fourthPage-blockItem img.specialImg1 {
+.main__fourthPage-blockItem svg.specialImg1 {
     position: relative;
     left: -11px;
 }
-.main__fourthPage-blockItem img.specialImg2 {
+.main__fourthPage-blockItem svg.specialImg2 {
     position: relative;
     left: 13px;
 }
-.main__fourthPage-blockItem img.specialImg3 {
+.main__fourthPage-blockItem svg.specialImg3 {
     position: relative;
     left: -8px;
 }
-.main__fourthPage-blockItem img.specialImg4 {
+.main__fourthPage-blockItem svg.specialImg4 {
     position: relative;
     left: 4px;
 }
