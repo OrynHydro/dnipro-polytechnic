@@ -1,0 +1,22 @@
+.pageMedals {
+    display: block;
+    width: 100%;
+    background: #fff;
+    font-family: 'Helvetica';
+}
+
+.medals__header {
+    margin-top: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.medals__header p {
+    padding: 33px 107px 44px 104px;
+    color: #233739;
+    font-weight: 400;
+    line-height: 25.5px;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
