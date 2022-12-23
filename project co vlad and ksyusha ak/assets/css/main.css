@@ -348,18 +348,35 @@
     width: 125px;
     height: 61px;
 }
-.leftSideBtn:first-child {
+.leftSideBtn:first-child {  
     transform: rotate(-180deg);
+}
+.leftSideBtn svg:last-child {
+    position: relative;
+    top: 2px;
 }
 .leftSideBtn:hover {
     background: #035782;
 }
+.leftSideBtn:hover path {
+    fill: #497D98;
+}
 .input {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-top: 26px;
+    transform: translateX(-50%);
 }
 input {
     width: 210px;
+}
+label {
+    position: relative;
+    top: -3px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150.5%;
+    color: #fff;
 }
 label:first-child {
     margin-right: 11px;
