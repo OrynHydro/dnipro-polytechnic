@@ -181,3 +181,7 @@ label:last-child {
 .rightSide button:last-child {
     margin-left: 42px;
 }
+.rightSide button:first-child:hover path,
+.rightSide button:last-child:hover path {
+    fill: #E3E3E3;
+}
