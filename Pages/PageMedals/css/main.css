@@ -1,0 +1,332 @@
+.pageMedals {
+    display: block;
+    width: 100%;
+    background: #fff;
+    font-family: 'Helvetica';
+}
+
+.medals__header {
+    margin-top: 43px;
+    background: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pageMedals__title {
+    text-align: center;
+    margin-top: 56px;
+    font-size: 25px;
+    line-height: 33.5px;
+    color: #1a1a1a;
+    font-family: 'Neris';
+}
+
+.medals__header p {
+    padding: 33px 107px 44px 104px;
+    color: #233739;
+    font-weight: 400;
+    line-height: 25.5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Gold and Iron medals*/
+
+.pageMedals__medals {
+    margin: 0 auto;
+    width: 793px;
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageMedals__medals-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageMedals__medals-item span {
+    color: #233739;
+    font-size: 16px;
+    line-height: 18.4px;
+    font-weight: 700;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.pageMedals__medals-item img {
+    width: 160px;
+    height: 159px;
+}
+
+/*Six Honorary ranks*/
+
+.pageMedals__honorytitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 33.5px;
+    color: #1a1a1a;
+    font-family: 'Neris';
+}
+
+.pageMedals__honoryranks {
+    margin-top: 49px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageMedals__honoryranks-item {
+    height: 171px;
+    width: 406px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.pageMedals__honoryranks-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #233739;
+    padding: 20px 72px 26px 60px;
+}
+
+.pageMedals__honoryranks-item img {
+    padding-top: 26px;
+}
+
+.pageMedals__honoryranks-item:nth-child(4),
+.pageMedals__honoryranks-item:nth-child(5) {
+    margin-top: 10px;
+}
+
+/*Three distinctions*/
+
+.pageMedals__descriptionTitle {
+    margin-top: 82px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 33.5px;
+    color: #1a1a1a;
+    font-family: 'Neris';
+}
+
+.pageMedals__distinctions {
+    margin-top: 49px;
+    display: flex;
+
+}
+
+.pageMedals__distinctions-item {
+    height: 171px;
+    width: 406px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.pageMedals__distinctions-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.4px;
+    color: #233739;
+    padding: 13px 100px 38px 100px;
+}
+
+.pageMedals__distinctions-item img {
+    width: 63px;
+    padding-top: 30px;
+}
+
+/*Addition*/
+
+
+.pageMedals__description {
+    color: #233739;
+    margin-top: 35px;
+}
+
+.pageMedals__descriptionmedal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.descriptiongoldmedal__logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.descriptiongoldmedal__logo img {
+    width: 126px;
+    height: 126px;
+    margin-left: 23px;
+}
+
+.descriptiongoldmedal__logo span {
+    line-height: 22.08px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descriptionmedal__ul {
+    margin: 15px 0 0 120px;
+    list-style-type: square;
+    list-style-image: url(../images/icons/blueli.svg);
+}
+
+.descriptionmedal__ul li {
+    padding: 15px 60px 0 23px;
+    font-size: 14px;
+    line-height: 22.76px;   
+}
+
+.descriptionmedal__ul li:first-child {
+    padding-top: 0;
+}
+
+
+/*Grey medal*/
+
+.pageMedals__description-detalinfo {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+    margin-top: 54px;
+}
+
+.descriptiongrey__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    margin-right: 50px;
+}
+
+.descriptiongrey__logo img {
+    width: 127px;
+    height: 126px;
+}
+
+.descriptiongrey__logo span {
+    margin-top: 23px;
+    line-height: 22.08px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    width: 309px;
+}
+
+.pageMedals__descriptionmedal p {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+    margin-top: 42px;
+    margin-right: 38px;
+    padding: 0 60px 0 0;
+}
+
+.pageMedals__description-detalinfo2 {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+    margin-top: 36px;
+    padding-right: 15px;
+}
+
+.pageMedals hr {
+    border: 1px solid #e1e1e1;
+    margin-top: 30px;
+}
+
+/*Honory description*/
+
+.pageMedals__descriptionHonory {
+    display: flex;;
+}
+
+.pageMedals__honorydescription {
+    margin-top: 28px;
+    width: 291px;
+    height: 171px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    text-align: center;
+}
+
+.pageMedals__honorydescription img {
+    width: 61px;
+    height: 60px;
+    margin-top: 26px;
+}
+
+.pageMedals__honorydescription p {
+    font-weight: 400;
+    line-height: 17.94px;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 25px 26px 21px;
+}
+
+.descriptionHonory__ul {
+    list-style-type: square;
+    list-style-image: url(/assets/images/img/PageMedals/blueli.svg);
+    margin-left: 54px;
+}
+
+.descriptionHonory__ul li {
+    width: 847px;
+    padding: 15px 0px 0px 23px;
+    font-size: 14px;
+    line-height: 22.54px;   
+}
+
+.descriptionHonory__ul li:first-child {
+    padding-top: 22px;
+}
+
+.pageMedals__descriptionHonory-detalinfo {
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 28px;
+    padding-right: 15px;
+    padding: 0px 15px 30px 0;
+}
+
+/*Diploma etc description*/
+
+.pageMedals__giftsdescription {
+    width: 281px;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-top: 56px;
+}
+
+.pageMedals__giftsdescription p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    padding: 29px 30px 23px 44px;
+}
+
+.pageMedals__giftsdescription img {
+    width: 50px;
+    height: 50px;
+    margin-left: 37px;
+}
+
+
+.descriptionGift__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    width: 867px;
+    margin: 49px 0 0 72px;
+}
