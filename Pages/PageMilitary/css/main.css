@@ -64,7 +64,7 @@
 }
 .main__eighthPage-blockTitle {
     display: inline-block;
-    width: 295px;
+    width: 290px;
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -86,7 +86,6 @@
 .main__eighthPage-btn1 {
     background: #035F8E;     
     color: #fff;
-    padding: 9px 25px;
 }
 .main__eighthPage-btn1:hover {
     background: #E3E3E3;
@@ -98,41 +97,28 @@
     margin-left: 19px;
     border: 1px solid #035F8E;
     color: #000000;
-    padding: 9px 35px;
 }
 .main__eighthPage-btn2:hover {
-    border: #000;
     background: #000;
     color: #fff;
     transition-duration: .1s;
     transition-delay: .05s;
 }
 .main__eighthPage-presentationBlock {
-    background: #566A89;
     margin-top: 104px;
 }
-.main__eighthPage-presentationBlock-title {
-    margin: 273px 0px 213px;
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    line-height: 150.5%;
-}
-.main__eighthPage-presentationBlock-title h1 {
-    font-weight: 900;
-}
-.main__eighthPage-presentationBlock-title p {
-    font-weight: 300;
-}
 .main__eighthPage-presentationBlock-utilities {
+    position: relative;
+    top: -82px;
     display: flex;
     justify-content: center;
-    background: #035F8E;
 }
 .main__eighthPage-presentationBlock-utilities-container {
-    width: 1100px;
+    padding: 0px 60px;
+    width: 1220px;
     display: flex;
     justify-content: space-between;
+    background: #035F8E;
 }
 .leftSide {
     display: flex;
@@ -184,7 +170,40 @@ label:last-child {
 .rightSide button:last-child {
     margin-left: 42px;
 }
-.rightSide button:first-child:hover path,
-.rightSide button:last-child:hover path {
-    fill: #E3E3E3;
+
+#demo {
+    position: fixed;
+    left: -26px;
+}
+.slide1 {
+    width: 1220px;
+    height: 581px;
+    background: #566A89;
+    color: #fff;
+    font-size: 30px;
+    line-height: 150.5%;
+}
+.mySlides img {
+    width: 1220px;
+    height: 577px;
+}
+.mySlides h1 {
+    text-align: center;
+    position: relative;
+    top: 273px;
+    font-weight: 900;
+}
+.mySlides p {
+    text-align: center;
+    position: relative;
+    top: 273px;
+    font-weight: 300;
+}
+
+.mySlides span {
+    position: absolute;
+    right: 690px;
+    color: #566A89;
+    font-weight: 900;
+    font-size: 30px;
 }
