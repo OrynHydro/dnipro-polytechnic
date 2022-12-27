@@ -207,3 +207,7 @@ label:last-child {
     font-weight: 900;
     font-size: 30px;
 }
+
+.rightSide button:hover path {
+    fill: #298dbf;
+}
