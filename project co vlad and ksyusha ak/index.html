@@ -571,27 +571,41 @@
 						</div>
 					</div>
 					<div class="main__eighthPage-presentationBlock">
-						<div class="main__eighthPage-presentationBlock-title">
-							<h1>ПРЕЗЕНТАЦІЯ</h1>
-							<p>НТУ ДП</p>	
+						<div class="mySlides">
+							<div class="slide1">
+								<h1>ПРЕЗЕНТАЦІЯ</h1>
+								<p>НТУ ДП</p>	
+							</div>
+						</div>
+						<div class="mySlides">
+							<div class="slide2">Слайд2</div>
+						</div>
+						<div class="mySlides">
+							<div class="slide3">Слайд3</div>
+						</div>
+						<div class="mySlides">
+							<div class="slide4">Слайд4</div>
+						</div>
+						<div class="mySlides">
+							<div class="slide5">Слайд5</div>
 						</div>
 						<div class="main__eighthPage-presentationBlock-utilities">
 							<div class="main__eighthPage-presentationBlock-utilities-container">
 								<div class="leftSide">
-									<button class="leftSideBtn">
+									<button class="leftSideBtn" onclick="plusSlides(-1)">
 										<svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M21.7721 0.772186L20.4359 2.10854L26.3823 8.05508H0V9.94499H26.3823L20.4359 15.8915L21.7721 17.2278L30 8.99998L21.7721 0.772186Z" fill="white"/>
 										</svg>
 									</button>
-									<button class="leftSideBtn">
+									<button class="leftSideBtn" onclick="plusSlides(1)">
 										<svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M21.7721 0.772186L20.4359 2.10854L26.3823 8.05508H0V9.94499H26.3823L20.4359 15.8915L21.7721 17.2278L30 8.99998L21.7721 0.772186Z" fill="white"/>
 										</svg>
 									</button>
 								</div>
 								<div class="input">
-									<label for="input">1</label>
-									<input type="range" step="1" min="1" max="25" id="input">
+									<label for="input" id="demo">1</label>
+									<input type="range" step="1" min="1" max="25" id="input" class="slider">
 									<label for="input">25</label>
 								</div>
 								<div class="rightSide">
@@ -655,5 +669,7 @@
 				</div>
 			</div>
 		</footer>
+
+		<script src="./assets/js/app.js"></script>
 	</body>
 </html>
