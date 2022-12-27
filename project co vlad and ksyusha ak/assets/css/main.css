@@ -5,6 +5,7 @@
 }
 
 .PageStudens a {
+    display: block;
     color: #fff;
     font-size: 15px;
     font-weight: 400;
@@ -12,11 +13,14 @@
     background-color: #005f91;
     width: 223.09px;
     padding: 16.47px 84.54px 15.47px 84.54px;
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    margin: 49.53px auto 80.53px;
+}
+
+.PageStudens a:hover {
+    color: #005f91;
+    background: #ccc;
+    transition-duration: .1s ;
+    transition-delay: .05s;
 }
 
 .PageStudents__title {
@@ -90,5 +94,5 @@
     color: #000;
     line-height: 21.49px;
     font-weight: 400;
-    padding-right:20px;
+    padding-right: 20px;
 }
