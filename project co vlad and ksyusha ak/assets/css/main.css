@@ -1,13 +1,94 @@
 .PageStudens {
+    display: block;
     width: 100%;
     background-color: #fff;
-    
+}
+
+.PageStudens a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.1px;
+    background-color: #005f91;
+    width: 223.09px;
+    padding: 16.47px 84.54px 15.47px 84.54px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.PageStudents__title {
+    color: #1a1a1a;
+    line-height: 33.5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 56px 0;
 }
 
 .PageStudents__details {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .PageStudents__details-item {
+    width: 590px;
+    height: 342px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.details-item__person {
+    width: 254px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 0 115px 0;
+    padding-top: 105px;
+}
+
+.details__headimg {
+    width: 53px;
+    height: 53px;
+    margin-bottom: 10px;
+}
+
+.details__bodyimg {
+    height: 113px;
+    width: 81px;
+}
+
+.details-item__info {
+    width: 336px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-item__info span {
+    font-size: 14px;
+    line-height: 18.76px;
+    color: #000;
+    font-weight: 400;
+}
+
+.details-item__info h1 {
+    font-size: 22px;
+    line-height: 30.8px;
+    color: #000;
+    margin: 8px 0 30px 0;
+}
+
+.details-item__info p {
+    font-size: 14px;
+    color: #000;
+    line-height: 21.49px;
+    font-weight: 400;
+    padding-right:20px;
 }
