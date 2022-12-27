@@ -4,6 +4,7 @@ output.innerHTML = slider.value;
 
 slider.oninput = function() {
     output.innerHTML = this.value
+    // showSlides(slideIndex = this.value);
 }
 
 let slideIndex = 1;
@@ -13,9 +14,9 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
 
 function showSlides(n) {
     let i;
