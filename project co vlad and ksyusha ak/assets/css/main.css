@@ -1,6 +1,6 @@
 /* Start of Third Page */
 
-.main__thirdPage {
+/* .main__thirdPage {
     width: 100vw;
     margin-top: 56px;
 }
@@ -99,11 +99,11 @@
 }
 .main__thirdPage-block a:hover {
     color: rgb(0, 0, 255);
-}
+} */
 
 /* Start of Fourth Page */
 
-.main__fourthPage {
+/* .main__fourthPage {
     width: 100vw;
     margin-top: 56px;
 }
@@ -203,11 +203,11 @@
 .main__fourthPage-blockItem svg.specialImg4 {
     position: relative;
     left: 4px;
-}
+} */
 
 /* Start of Eighth Page */
 
-.main__eighthPage {
+/* .main__eighthPage {
     width: 100vw;
     margin-top: 56px;
 }
@@ -415,4 +415,195 @@ label:last-child {
     color: #566A89;
     font-weight: 900;
     font-size: 30px;
+} */
+
+/* Start of Eleventh Page */
+
+.main__EleventhPage {
+    width: 100vw;
+    margin-top: 56px;
+}   
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1A1A1A;
+    text-align: center;
+}
+.nextMeeting-block {
+    background-color: #fff;
+    width: 1200px;
+    height: 209px;
+    text-align: center;
+    position: relative;
+    top: 43px;
+    left: 20px;
+    margin-bottom: 100px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+}
+.overlay1 {
+    display: block;
+    width: 1220px;
+    height: 226px;
+    position: absolute;
+    bottom: 363px;
+    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/overlay1.svg');
+}
+
+.nextMeeting-block h3 {
+    padding-top: 44px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.nextMeeting-block p {
+    padding: 18px 135px 43px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.99%;
+    color: #233739;
+}
+.dearFriends-block {
+    margin-bottom: 71px;
+}
+.dearFriends-content {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 169.99%;
+    color: #233739;
+    display: inline-block;
+    width: 1078px;
+    margin-left: 50px;
+}
+.dearFriends-afterword {
+    display: inline-block;
+    width: 216px;
+    position: relative;
+    left: 1020px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 169.99%;
+    color: #000000;
+}
+.twoWhiteBlocks {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+}
+.twoWhiteBlocks:last-child {
+    margin-top: 30px;
+}
+.img1 {
+    padding: 39px 62px 39px 71px;
+}
+.img2 {
+    padding: 21px 44px 21px 52px;
+}
+.twoWhiteBlocks h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+}
+.button-block {
+    position: absolute;
+    left: 782px;
+}
+.button-block a {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #EDECEC;
+    width: 163px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+}
+
+.button-block a:nth-child(2) {
+    position: relative;
+    right: 4px;
+}
+.button-block a:nth-child(3) {
+    position: relative;
+    right: 8px;
+}
+
+.button-block a:hover { 
+    background: #005F91;
+    color: #fff;
+}
+
+.photos-block {
+    margin-top: 69px;
+    text-align: center;
+}
+.photos-block h2 {
+    margin-bottom: 61px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    margin-bottom: 41px;
+    margin-left: 32px;
+}
+.photo {
+    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/overlay.svg');
+    width: 556px;
+    height: 283px;
+}
+
+.row h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;  
+    color: #FFFFFF;
+    z-index: 99;
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 108px;
+}
+
+.photo a {
+    width: 172px;
+    padding: 12px 43px;
+    border: 1px solid #FFFFFF;  
+    position: relative;
+    bottom: 120px;
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+.photo a:hover {
+    background: #FFFFFF;
+    color: #0E0E0E;
+}
+
+.overlay {
+    position: absolute;
+    background: linear-gradient(180deg, #093864 0%, #005F91 100%);
+    width: 556px;
+    height: 283px;
+    opacity: 0.57;
+}
+
+.special-btn {
+    position: absolute;
+    top: 210px;
+    right: 90px;
+}
+
+.special-btn2 {
+    position: relative;
+    left: 90px;
 }
