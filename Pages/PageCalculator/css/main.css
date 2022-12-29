@@ -51,30 +51,135 @@
     display: flex;
     justify-content: space-between;
 }
+
 .calculator__specialties-body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 14px;
     width: 504px;
 }
-.specialties__body {
-}
+
 .specialties__body-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 244px;
+    padding: 26px 14px;
+    gap: 15px;
+
+    background: #FBFBFB;
+    border: 1px solid #A4A4A4;
 }
 
-.specialties__body-item img {
-    background: black;
+.specialties__body-item:hover {
+    background: #035F8E;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid transparent;
+}
+
+.specialties__body-item path{
+    fill: #000000;
+    margin: 26px 16px;
+}
+
+.specialties__body-item svg {
+    width: 40px;
+    height: 40px;
+    margin: 0px 16px;
+}
+
+.specialties__body-item:hover path {
+    fill: #FFFFFF;
+}
+
+.specialties__body-item p {
+    width: fit-content;
+
+    color: #292929;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.specialties__body-item:hover p {
+    color: #FFFFFF;
+}
+
+.specialties__body-item input[type="radio"] {
+    appearance: none;
+    background: #D7D7D7;
+    width: 13px;
+    height: 13px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+.specialties__body-item:hover input[type="radio"] {
+    appearance: none;
+    background: transparent;
+    border: 3px solid #FFFFFF;
 }
 
 .calculator__specialties-found_in {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
 }
-.specialties__found_in {
-}
-.specialties__found_in-count {
-}
+
 .specialties__found_in-body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 650px;
+    height: 422px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #093864;
+    border-radius: 10px;
+}
+
+.specialties__found_in-count {
+    margin: 30px 0px;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.specialties__found_in-count label {
+    color: #2D2C2C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.specialties__found_in-count input {
+    margin-left: 4px;
+    width: 10px;
+    border: none;
+    height: fit-content;
+
+    color: #2D2C2C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.specialties__found_in-item {
+    display: grid;
+    grid: 1fr / repeat(3, 1fr);
+    padding: 17px 40px;
+    justify-content: center;
 }
 .specialties__found_in-numbe {
 }
