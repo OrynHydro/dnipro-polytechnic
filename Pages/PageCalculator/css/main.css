@@ -1,0 +1,88 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 76px 0px 107px;
+}
+
+.calculator__title {
+    color: #1A1A1A;
+    display: flex;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.calculator__EIA {
+    display: flex;
+    align-items: center;
+    background: #035F8E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    margin-bottom: 68px;
+}
+
+.calculator__EIA-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.calculator__EIA-subtitle {
+    align-self: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+.calculator__EIA-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.calculator__specialties {
+    display: flex;
+    justify-content: space-between;
+}
+.calculator__specialties-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    width: 504px;
+}
+.specialties__body {
+}
+.specialties__body-item {
+}
+
+.specialties__body-item img {
+    background: black;
+}
+
+.calculator__specialties-found_in {
+}
+.specialties__found_in {
+}
+.specialties__found_in-count {
+}
+.specialties__found_in-body {
+}
+.specialties__found_in-numbe {
+}
+.specialties__found_in-name {
+}
+.specialties__found_in-btn {
+}
+.fa-solid {
+}
+.fa-chevron-right {
+}
