@@ -1,0 +1,78 @@
+.PageGratitude {
+    width: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+.PageGratitude__title {
+    font-size: 25px;
+    text-align: center;
+    line-height: 33.5px;
+    color: #1a1a1a;
+    margin: 56px 0 43px 0;
+}
+
+.PageGratitude__top {
+    background: url(/assets/images/img/PageGratitude/gratitudeTop.svg);
+    width: 1220px;
+    height: 226px;
+}
+
+.PageGratitude__top p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-align: center;
+    color: #233739;
+    padding: 93px 136px 79px 134px;
+}
+
+/*People and some info about em'*/
+
+.PageGratitude__people {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.PageGratitude__people-item {
+    width: 1220px;
+    height: 261px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}   
+
+.PageGratitude__people-item:first-child {
+    margin-top: 59px;
+}
+
+.PageGratitude__people-item:last-child {
+    margin-bottom: 79px;
+}
+
+.PageGratitude__people-item img {
+    padding: 23px 73px 22px 45px;
+}
+
+.people_description h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 51px;
+    color: #000;
+}
+
+.people_description p {
+    color: #000;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.people_description {
+    display: flex;
+    flex-direction: column;
+}
