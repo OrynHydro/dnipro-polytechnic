@@ -51,7 +51,7 @@ h2 {
     display: inline-block;
     width: 216px;
     position: relative;
-    left: 1020px;
+    left: 920px;
     top: 20px;
     font-weight: 600;
     font-size: 15px;
@@ -82,7 +82,7 @@ h2 {
 }
 .button-block {
     position: absolute;
-    left: 700px;
+    left: 46%;
 }
 .button-block a {
     display: inline-block;
