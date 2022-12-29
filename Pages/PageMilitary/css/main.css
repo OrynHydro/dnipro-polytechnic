@@ -1,0 +1,213 @@
+.main__eighthPage {
+    width: 100vw;
+    margin-top: 56px;
+}
+.main__eighthPage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 78px;
+}
+.main__eighthPage-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1A1A1A;
+}
+.main__eighthPage-blueBlock {
+    background: #035F8E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    margin-top: 43px;
+    padding: 40px 60px;
+}
+.main__eighthPage-blueBlock-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.main__eighthPage-blueBlock-line {
+    margin: 32px 0px 24px 520px;
+    width: 57px;
+    border-top: 1px solid #FFFFFF;
+}
+.main__eighthPage-blueBlock-content {
+    display: inline-block;
+    width: 1040px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 147.5%;
+    color: #FFFFFF;
+}   
+.main__eighthPage-intermediateTitle {
+    margin: 53px 0px 32px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #242424;
+}   
+.main__eighthPage-row {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 21px;
+}
+.main__eighthPage-block {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 48px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+}
+.main__eighthPage-blockTitle {
+    display: inline-block;
+    width: 290px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    margin-bottom: 42px;
+}
+.main__eighthPage-btnBlock.specialBlock {
+    position: relative;
+    top: -22px;
+}
+.main__eighthPage-block button {
+    width: 132px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150.5%;
+}
+.main__eighthPage-btn1 {
+    background: #035F8E;     
+    color: #fff;
+}
+.main__eighthPage-btn1:hover {
+    background: #E3E3E3;
+    color: #000000;
+    transition-duration: .1s;
+    transition-delay: .05s;
+}
+.main__eighthPage-btn2 {
+    margin-left: 19px;
+    border: 1px solid #035F8E;
+    color: #000000;
+}
+.main__eighthPage-btn2:hover {
+    background: #000;
+    color: #fff;
+    transition-duration: .1s;
+    transition-delay: .05s;
+}
+.main__eighthPage-presentationBlock {
+    margin-top: 104px;
+}
+.main__eighthPage-presentationBlock-utilities {
+    position: relative;
+    top: -82px;
+    display: flex;
+    justify-content: center;
+}
+.main__eighthPage-presentationBlock-utilities-container {
+    padding: 0px 60px;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    background: #035F8E;
+}
+.leftSide {
+    display: flex;
+}
+.leftSideBtn {
+    background: #1F6D95;
+    width: 125px;
+    height: 61px;
+}
+.leftSideBtn:first-child {  
+    transform: rotate(-180deg);
+}
+.leftSideBtn svg:last-child {
+    position: relative;
+    top: 2px;
+}
+.leftSideBtn:hover {
+    background: #035782;
+}
+.leftSideBtn:hover path {
+    fill: #497D98;
+}
+.input {
+    position: absolute;
+    left: 50%;
+    margin-top: 26px;
+    transform: translateX(-50%);
+}
+input {
+    width: 210px;
+}
+label {
+    position: relative;
+    top: -3px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150.5%;
+    color: #fff;
+}
+label:first-child {
+    margin-right: 11px;
+}
+label:last-child {
+    margin-left: 11px;
+}
+.rightSide {
+    margin-top: 19px;
+}
+.rightSide button:last-child {
+    margin-left: 42px;
+}
+
+#demo {
+    position: fixed;
+    left: -26px;
+}
+.slide1 {
+    width: 1220px;
+    height: 581px;
+    background: #566A89;
+    color: #fff;
+    font-size: 30px;
+    line-height: 150.5%;
+}
+.mySlides img {
+    width: 1220px;
+    height: 577px;
+}
+.mySlides h1 {
+    text-align: center;
+    position: relative;
+    top: 273px;
+    font-weight: 900;
+}
+.mySlides p {
+    text-align: center;
+    position: relative;
+    top: 273px;
+    font-weight: 300;
+}
+
+.mySlides span {
+    position: absolute;
+    right: 690px;
+    color: #566A89;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.rightSide button:hover path {
+    fill: #298dbf;
+}
