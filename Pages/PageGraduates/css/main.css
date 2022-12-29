@@ -1,0 +1,177 @@
+.main__EleventhPage {
+    width: 100vw;
+    margin-top: 56px;
+}   
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1A1A1A;
+    text-align: center;
+}
+.nextMeeting-block {
+    width: 1220px;
+    height: 226px;
+    text-align: center;
+    position: relative;
+    top: 43px;
+    margin-bottom: 100px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    background-image: url('/assets/images/img/PageGraduates/background.svg');
+}
+.nextMeeting-block h3 {
+    padding-top: 58px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.nextMeeting-block p {
+    padding: 18px 135px 43px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.99%;
+    color: #233739;
+}
+.dearFriends-block {
+    margin-bottom: 71px;
+}
+.dearFriends-content {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 169.99%;
+    color: #233739;
+    display: inline-block;
+    width: 1078px;
+    margin-left: 50px;
+}
+.dearFriends-afterword {
+    display: inline-block;
+    width: 216px;
+    position: relative;
+    left: 1020px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 169.99%;
+    color: #000000;
+}
+.twoWhiteBlocks {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+}
+.twoWhiteBlocks:last-child {
+    margin-top: 30px;
+}
+.img1 {
+    padding: 39px 62px 39px 71px;
+}
+.img2 {
+    padding: 21px 44px 21px 52px;
+}
+.twoWhiteBlocks h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+}
+.button-block {
+    position: absolute;
+    left: 700px;
+}
+.button-block a {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #EDECEC;
+    width: 190px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+}
+.first-block a {
+    width: 163px;
+}
+.button-block a:nth-child(2) {
+    position: relative;
+    right: 4px;
+}
+.button-block a:nth-child(3) {
+    position: relative;
+    right: 8px;
+}
+
+.button-block a:hover { 
+    background: #005F91;
+    color: #fff;
+}
+
+.photos-block {
+    margin-top: 69px;
+    text-align: center;
+}
+.photos-block h2 {
+    margin-bottom: 61px;
+}
+
+.photos-block-main {
+    display: flex;
+    margin-bottom: 66px;
+}
+.column {
+    position: relative;
+    left: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    margin-left: 41px;
+}
+.photo {
+    background-image: url('/assets/images/img/PageGraduates/backgroundImage.svg');
+    width: 556px;
+    height: 283px;
+}
+.photo a {
+    border: 1px solid #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 44px;
+    text-decoration: none;
+    z-index: 99;
+    position: relative;
+    top: 137px;
+}
+.photo a:hover {
+    background: #FFFFFF;
+    color: #0E0E0E;
+}
+.photo h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    color: #fff;
+    position: relative;
+    top: 108px;
+    z-index: 99;
+
+}
+.overlay {
+    background: linear-gradient(180deg, #093864 0%, #005F91 100%);
+    opacity: 0.57;
+    width: 556px;
+    height: 283px;
+    position: relative;
+    bottom: 88px;
+    z-index: 1;
+}
