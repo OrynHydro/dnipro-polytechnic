@@ -113,6 +113,8 @@ h2 {
 .button-block a:hover { 
     background: #005F91;
     color: #fff;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 
 .photos-block {
