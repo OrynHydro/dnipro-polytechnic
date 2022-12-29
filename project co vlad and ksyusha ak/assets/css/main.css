@@ -431,27 +431,17 @@ h2 {
     text-align: center;
 }
 .nextMeeting-block {
-    background-color: #fff;
-    width: 1200px;
-    height: 209px;
+    width: 1220px;
+    height: 226px;
     text-align: center;
     position: relative;
     top: 43px;
-    left: 20px;
     margin-bottom: 100px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/background.svg');
 }
-.overlay1 {
-    display: block;
-    width: 1220px;
-    height: 226px;
-    position: absolute;
-    bottom: 363px;
-    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/overlay1.svg');
-}
-
 .nextMeeting-block h3 {
-    padding-top: 44px;
+    padding-top: 58px;
     font-weight: 900;
     font-size: 20px;
     line-height: 27px;
@@ -513,14 +503,14 @@ h2 {
 }
 .button-block {
     position: absolute;
-    left: 782px;
+    left: 700px;
 }
 .button-block a {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
     border: 1px solid #EDECEC;
-    width: 163px;
+    width: 190px;
     height: 61px;
     font-weight: 400;
     font-size: 15px;
@@ -529,7 +519,9 @@ h2 {
     text-decoration: none;
     position: relative;
 }
-
+.first-block a {
+    width: 163px;
+}
 .button-block a:nth-child(2) {
     position: relative;
     right: 4px;
@@ -551,59 +543,56 @@ h2 {
 .photos-block h2 {
     margin-bottom: 61px;
 }
-.row {
+
+.photos-block-main {
     display: flex;
-    flex-direction: row;
-    gap: 41px;
-    margin-bottom: 41px;
-    margin-left: 32px;
+    margin-bottom: 66px;
+}
+.column {
+    position: relative;
+    left: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    margin-left: 41px;
 }
 .photo {
-    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/overlay.svg');
+    background-image: url('/project\ co\ vlad\ and\ ksyusha\ ak/assets/images/img/backgroundImage.svg');
     width: 556px;
     height: 283px;
 }
-
-.row h1 {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 67px;  
-    color: #FFFFFF;
-    z-index: 99;
-    position: absolute;
-    margin-left: 222px;
-    margin-top: 108px;
-}
-
 .photo a {
-    width: 172px;
-    padding: 12px 43px;
-    border: 1px solid #FFFFFF;  
-    position: relative;
-    bottom: 120px;
-    color: #FFFFFF; 
+    border: 1px solid #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 44px;
     text-decoration: none;
+    z-index: 99;
+    position: relative;
+    top: 137px;
 }
 .photo a:hover {
     background: #FFFFFF;
     color: #0E0E0E;
 }
+.photo h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    color: #fff;
+    position: relative;
+    top: 108px;
+    z-index: 99;
 
+}
 .overlay {
-    position: absolute;
     background: linear-gradient(180deg, #093864 0%, #005F91 100%);
+    opacity: 0.57;
     width: 556px;
     height: 283px;
-    opacity: 0.57;
-}
-
-.special-btn {
-    position: absolute;
-    top: 210px;
-    right: 90px;
-}
-
-.special-btn2 {
     position: relative;
-    left: 90px;
+    bottom: 88px;
+    z-index: 1;
 }
