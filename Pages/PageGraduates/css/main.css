@@ -155,6 +155,8 @@ h2 {
 .photo a:hover {
     background: #FFFFFF;
     color: #0E0E0E;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 .photo h1 {
     font-weight: 700;
