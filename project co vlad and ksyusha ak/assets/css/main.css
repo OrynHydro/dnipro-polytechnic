@@ -86,3 +86,117 @@
     transition-duration: .1s;
 }
 
+/*Main block of the page*/
+
+.PageFaculty__menu {
+    display: flex;
+    margin-top: 105px;
+}
+
+.PageFaculty__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.PageFaculty__nav-item {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.44px;
+    border-bottom: 1px solid #d0d0d0;
+    width: 301px;
+    padding: 25px 205px 24px 37px;
+}
+
+.PageFaculty__nav-item:hover {
+    color: #fff;
+    background-color: #005f91;
+}
+
+.PageFaculty__detailsnav-info {
+    background: #fff;
+    width: 1336px;
+    display: flex;
+}
+
+.PageFaculty__detailsnav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 46px;
+}
+
+.PageFaculty__detailsnav-name span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: #1a1a1a;
+}
+
+.PageFaculty__detailsnav-name h1 {
+    line-height: 40.2px;
+    font-size: 30px;
+    color: #373737;
+}
+
+.PageFaculty__detailsnav-contacts {
+    margin-top: 37px;
+}
+
+.PageFaculty__detailsnav-contacts span { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: #1a1a1a;
+}
+
+.contacts__border {
+    width: 477px;
+    height: 61px;
+    border: 1px solid #cbcbcb;
+    display: flex;
+    padding: 20px 145px 21px 20px;
+    justify-content: space-between;
+}
+
+.contacts__border-item {
+    align-items: center;
+    display: flex;
+}
+
+.contacts__border-item p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.1px;
+    margin-left: 10px;
+}
+
+.contacts__border-item .fa-solid {
+    font-size: 19px;
+    color: #ddd;
+}
+
+.contacts__border-item .fa-solid:hover {
+    color: #005f91;
+}
+
+.PageFaculty__detailsnav-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.8px;
+    color: #233739;
+    padding: 30px 80px 0 0;
+}
+
+.details__photo {
+    height: 374px;
+    background-color: #ededed;
+}
+
+.details__photo p {
+    width: 290px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.44px;
+    color: #000;
+    padding: 175px 89px 178px 105px;
+}
