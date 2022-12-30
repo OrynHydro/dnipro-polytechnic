@@ -121,6 +121,8 @@
     background: #fff;
     width: 1336px;
     display: flex;
+    padding-top: 44px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .PageFaculty__detailsnav {
@@ -194,6 +196,7 @@
 .details__photo {
     height: 374px;
     background-color: #ededed;
+    margin-right: 45px;
 }
 
 .details__photo p {
