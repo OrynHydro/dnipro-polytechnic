@@ -20,7 +20,7 @@ h2 {
     background-image: url('/assets/images/img/PageGraduates/background.svg');
 }
 .nextMeeting-block h3 {
-    padding-top: 58px;
+    padding-top: 44px;
     font-weight: 900;
     font-size: 20px;
     line-height: 27px;
@@ -113,6 +113,8 @@ h2 {
 .button-block a:hover { 
     background: #005F91;
     color: #fff;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 
 .photos-block {
@@ -155,6 +157,8 @@ h2 {
 .photo a:hover {
     background: #FFFFFF;
     color: #0E0E0E;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 .photo h1 {
     font-weight: 700;
