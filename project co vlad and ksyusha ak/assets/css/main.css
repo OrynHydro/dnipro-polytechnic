@@ -7,7 +7,7 @@
 .PageFaculty__info {
     width: 780px;
     display: flex;
-    margin-top: 65px;
+    padding-top: 65px;
     justify-content: space-between;
     align-items: center;
 }
