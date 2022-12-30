@@ -137,7 +137,7 @@
     height: 422px;
 }
 
-::-webkit-scrollbar {
+.specialties__found_in-body::-webkit-scrollbar {
     width: 4px;
 }
 
@@ -175,17 +175,56 @@
     font-size: 16px;
     line-height: 21px;
 }
+
 .specialties__found_in-item {
     display: grid;
-    grid: 1fr / repeat(3, 1fr);
+    grid: 1fr / 1fr 4fr 1fr;
     padding: 17px 40px;
     justify-content: center;
 }
+
 .specialties__found_in-numbe {
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
 }
+
 .specialties__found_in-name {
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+
 }
+
 .specialties__found_in-btn {
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.specialties__found_in-btn a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.specialties__found_in-btn i::before {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 0;
 }
 .fa-solid {
 }
