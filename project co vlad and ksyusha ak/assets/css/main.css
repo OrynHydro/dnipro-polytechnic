@@ -105,7 +105,11 @@
     line-height: 21.44px;
     border-bottom: 1px solid #d0d0d0;
     width: 301px;
-    padding: 25px 205px 24px 37px;
+    padding: 25px 0 24px 37px;
+}
+
+.PageFaculty__nav-item:last-child {
+    border-bottom: none ;
 }
 
 .PageFaculty__nav-item:hover {
