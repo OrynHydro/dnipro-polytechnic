@@ -21,6 +21,7 @@
     font-size: 14px;
     line-height: 19px;
     margin-right: 14px;
+    background: transparent;
 }
 
 .specialties__search-block input[type=text]:focus {
