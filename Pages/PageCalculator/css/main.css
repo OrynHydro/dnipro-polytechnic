@@ -52,6 +52,7 @@
 .calculator__specialties {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .calculator__specialties-body {
@@ -72,6 +73,7 @@
 
     background: #FBFBFB;
     border: 1px solid #A4A4A4;
+    transition: background 0.5s ease-in-out;
 }
 
 .specialties__body-item:hover {
@@ -184,18 +186,35 @@
     padding: 17px 40px;
     justify-content: center;
     border: 1px solid #E9E9E9;
+    align-items: center;
+
+    transition: background 0.5s ease-in-out;
 }
 
-.specialties__body-item:hover {
+.specialties__found_in-item:hover {
     background: #035F8E;
 }
-.specialties__found_in-item:hover .specialties__found_in-numbe+.specialties__found_in-name+.specialties__found_in-btn {
+
+.specialties__found_in-item:hover .specialties__found_in-number {
     color: #FFFFFF;
 }
 
-.specialties__found_in-numbe {
+.specialties__found_in-item:hover .specialties__found_in-name {
+    color: #FFFFFF;
+}
+
+.specialties__found_in-item:hover .specialties__found_in-btn a{
+    color: #FFFFFF;
+}
+
+.specialties__found_in-number {
     display: flex;
     align-items: center;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: auto;
 
     color: #000000;
     font-weight: 700;
@@ -203,24 +222,35 @@
     line-height: 29px;
 }
 
+.specialties__found_in-numbe:focus {
+    outline: none;
+    border: none;
+}
+
 .specialties__found_in-name {
     display: flex;
     align-items: center;
-    
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: auto;
+
     color: #000000;
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
+}
 
+.specialties__found_in-name:focus {
+    outline: none;
+    border: none;
 }
 
 .specialties__found_in-btn {
     display: flex;
     align-items: center;
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    height: fit-content;
 }
 
 .specialties__found_in-btn a {
@@ -228,14 +258,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+
+    align-items: center;
+    height: fit-content;
 }
 
-.specialties__found_in-btn i::before {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    padding: 0;
-}
 .fa-solid {
 }
 .fa-chevron-right {
