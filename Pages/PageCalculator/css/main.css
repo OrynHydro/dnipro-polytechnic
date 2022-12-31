@@ -12,6 +12,8 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
+    
+    margin-bottom: 43px;
 }
 
 .calculator__EIA {
@@ -181,6 +183,14 @@
     grid: 1fr / 1fr 4fr 1fr;
     padding: 17px 40px;
     justify-content: center;
+    border: 1px solid #E9E9E9;
+}
+
+.specialties__body-item:hover {
+    background: #035F8E;
+}
+.specialties__found_in-item:hover .specialties__found_in-numbe+.specialties__found_in-name+.specialties__found_in-btn {
+    color: #FFFFFF;
 }
 
 .specialties__found_in-numbe {
