@@ -170,7 +170,7 @@
 				<div class="news__body">
 					<h1 class="news__title">Новини</h1>
 					<div class="news__block">
-						<div class="news__block-item" id="news__block-item1">
+						<div class="news__block-item" id="news__block-item">
 							<div class="news__block-img">
 								<img src="/assets/images/img/PageMain/News__img.svg" alt="news_img">
 							</div>
@@ -183,7 +183,7 @@
 								<div class="news__block-date">18.08.2020</div>
 							</div>
 						</div>
-						<div class="news__block-item">
+						<div class="news__block-item" id="news__block-item">
 							<div class="news__block-img">
 								<img src="/assets/images/img/PageMain/News__img.svg" alt="news_img">
 							</div>
@@ -192,7 +192,7 @@
 								<div class="news__block-description">Lorem ipsum dolor sit amet consectetur adipisicing
 									elit. Unde in tempore non architecto. Natus, enim eveniet? Non aspernatur quas quae.
 								</div>
-								<a href="#" class="news__block-btn">Перейти</a>
+								<a href="#" class="news__block-btn" id="news__block-btn1">Перейти</a>
 								<div class="news__block-date">18.08.2020</div>
 							</div>
 						</div>
@@ -281,18 +281,37 @@
 
 	<!-- Start of JS -->
 	<script>
-		const news__block_btn1 =  document.getElementById('news__block-btn1');
-		const news__block_item1 = document.getElementById('news__block-item1');
+		// const news__block_btn1 =  document.getElementById('news__block-btn1');
+		// const news__block_item1 = document.getElementById('news__block-item1');
 
-		news__block_btn1.addEventListener('mouseover', function handleMouseOver() {
-			news__block_item1.style.width = "580px";
-			news__block_item1.style.boxShadow = '0px 4px 30px #0000002c';
-		});
+		// news__block_btn1.addEventListener('mouseover', function handleMouseOver() {
+		// 	news__block_item1.style.transform = "scale(1.1)";
+    	// 	news__block_item1.style.transitionDuration = "1s";
+    	// 	news__block_item1.style.transition.delay = ".5s";
+		// });
 
-		news__block_btn1.addEventListener('mouseout', function handleMouseOut() {
-			news__block_item1.style.width = "577px"
-			news__block_item1.style.boxShadow = '0px 4px 20px #0000000f';
-		});
+		// news__block_btn1.addEventListener('mouseout', function handleMouseOut() {
+		// 	news__block_item1.style.transform = "none";
+		// });
+
+		// let i;
+		// const news__block_btn =  document.getElementById('news__block_btn');
+		// let news__block_item = document.getElementsByClassName('news__block-item');
+		// console.log(news__block_item);
+		// console.log(news__block_btn);
+
+		// for (i = 0; i < news__block_btn.length; i++) {
+
+		// for(i = 0; i < news__block_btn.length; i++) {
+		// 	news__block_btn[1].addEventListener('mouseover', function handleMouseOver() {
+		// 	news__block_item[i].style.transform = "scale(1.1)";
+    	// 	news__block_item[i].style.transitionDuration = ".1s";
+    	// 	news__block_item[i].style.transitionDelay = ".5s";
+		// });
+		// }
+		// news__block_btn.addEventListener('mouseout', function handleMouseOut() {
+		// 	news__block_item1.style.transform = "none";
+		// });
 
 	</script>
 </body>
