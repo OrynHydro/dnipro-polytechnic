@@ -118,98 +118,39 @@
 }
 
 .PageFaculty__detailsnav-info {
-    width: 1336px;
+    width: 968px;
+    height: 251px;
     background: #fff;
     display: flex;
-    padding-top: 44px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: none;
-}
-
-.PageFaculty__menu:hover .PageFaculty__detailsnav-info {
-    display: flex;
-}
-
-
-.PageFaculty__detailsnav {
-    display: flex;
     flex-direction: column;
-    margin-left: 46px;
+    padding: 34px 62px 0 62px;
+    padding-top: 34px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.PageFaculty__detailsnav-name span {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.76px;
-    color: #1a1a1a;
-}
-
-.PageFaculty__detailsnav-name h1 {
-    line-height: 40.2px;
-    font-size: 30px;
-    color: #373737;
-}
-
-.PageFaculty__detailsnav-contacts {
-    margin-top: 37px;
-}
-
-.PageFaculty__detailsnav-contacts span { 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.76px;
-    color: #1a1a1a;
-}
-
-.contacts__border {
-    width: 477px;
-    height: 61px;
-    border: 1px solid #cbcbcb;
-    display: flex;
-    padding: 20px 145px 21px 20px;
-    justify-content: space-between;
-}
-
-.contacts__border-item {
-    align-items: center;
-    display: flex;
-}
-
-.contacts__border-item p {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20.1px;
-    margin-left: 10px;
-}
-
-.contacts__border-item .fa-solid {
-    font-size: 19px;
-    color: #ddd;
-}
-
-.contacts__border-item .fa-solid:hover {
-    color: #005f91;
-}
-
-.PageFaculty__detailsnav-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 23.8px;
-    color: #233739;
-    padding: 30px 80px 0 0;
-}
-
-.details__photo {
-    height: 374px;
-    background-color: #ededed;
-    margin-right: 45px;
-}
-
-.details__photo p {
-    width: 290px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21.44px;
+.PageFaculty__detailsnav-info h1 {
+    font-size: 22px;
+    line-height: 29.48px;
     color: #000;
-    padding: 175px 89px 178px 105px;
+}
+
+.PageFaculty__detailsDegrees {
+    padding-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.PageFaculty__detailsDegrees-item {
+    width: 254px;
+    border: 2px solid #d9d9d9;
+    text-align: center;
+    padding: 24px 0px 25px 0px;
+    color: #000;
+}
+
+.PageFaculty__detailsDegrees-item:hover {
+    background-color: #005f91;
+    border: 2px solid #005f91;
+    color: #fff;
 }

@@ -118,98 +118,73 @@
 }
 
 .PageFaculty__detailsnav-info {
-    width: 1336px;
+    width: 968px;
+    height: 674px;
     background: #fff;
     display: flex;
-    padding-top: 44px;
+    flex-direction: column;
+    padding: 34px 62px 102px 62px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: none;
 }
 
-.PageFaculty__menu:hover .PageFaculty__detailsnav-info {
-    display: flex;
+.PageFaculty__detailsnav-infoTitle {
+    font-size: 22px;
+    line-height: 29.48px;
+    color: #000;
 }
 
-
-.PageFaculty__detailsnav {
+.PageFaculty__detailsDepartments {
+    margin-top: 53px;
     display: flex;
     flex-direction: column;
-    margin-left: 46px;
-}
-
-.PageFaculty__detailsnav-name span {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.76px;
-    color: #1a1a1a;
-}
-
-.PageFaculty__detailsnav-name h1 {
-    line-height: 40.2px;
-    font-size: 30px;
-    color: #373737;
-}
-
-.PageFaculty__detailsnav-contacts {
-    margin-top: 37px;
-}
-
-.PageFaculty__detailsnav-contacts span { 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.76px;
-    color: #1a1a1a;
-}
-
-.contacts__border {
-    width: 477px;
-    height: 61px;
     border: 1px solid #cbcbcb;
-    display: flex;
-    padding: 20px 145px 21px 20px;
-    justify-content: space-between;
 }
 
-.contacts__border-item {
+.PageFaculty__detailsDepartments-item {
+    width: 844px;
+    height: 115px;
+    display: flex;
     align-items: center;
-    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cbcbcb;
+    justify-content: space-around;
 }
 
-.contacts__border-item p {
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20.1px;
-    margin-left: 10px;
+.PageFaculty__detailsDepartments-item:last-child {
+    border-bottom: none;
 }
 
-.contacts__border-item .fa-solid {
-    font-size: 19px;
-    color: #ddd;
+.PageFaculty__detailsDepartments-item:hover {
+    background-color: #fafafa;
 }
 
-.contacts__border-item .fa-solid:hover {
-    color: #005f91;
+.detailsDepartments-depName {
+    padding-right: 200px;
 }
 
-.PageFaculty__detailsnav-description {
+.detailsDepartments-depName span {
     font-weight: 400;
+    color: #1a1a1a;
     font-size: 14px;
-    line-height: 23.8px;
-    color: #233739;
-    padding: 30px 80px 0 0;
 }
 
-.details__photo {
-    height: 374px;
-    background-color: #ededed;
-    margin-right: 45px;
+.detailsDepartments-depName h1{
+    font-weight: 900;
+    color: #373737;
+    font-size: 25px;
+    line-height: 33.5px;
 }
 
-.details__photo p {
-    width: 290px;
-    font-size: 16px;
+.detailsDepartments-persName span {
     font-weight: 400;
-    line-height: 21.44px;
-    color: #000;
-    padding: 175px 89px 178px 105px;
+    color: #1a1a1a;
+    font-size: 14px;
 }
+
+.detailsDepartments-persName h1{
+    font-weight: 700;
+    color: #373737;
+    font-size: 20px;
+    line-height: 26.8px;
+}
+

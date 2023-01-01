@@ -123,13 +123,7 @@
     display: flex;
     padding-top: 44px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: none;
 }
-
-.PageFaculty__menu:hover .PageFaculty__detailsnav-info {
-    display: flex;
-}
-
 
 .PageFaculty__detailsnav {
     display: flex;
