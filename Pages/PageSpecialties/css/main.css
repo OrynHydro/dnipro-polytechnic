@@ -65,16 +65,26 @@
 }
 
 .specialties__body-number {
+<<<<<<< HEAD
+    color: var(--color-blue035);
+=======
     color: #035F8E;
 
+>>>>>>> 38389dcc95fb50bc2fe00b9c3b7cff0bdd691cd7
     font-weight: 900;
     font-size: 30px;
     line-height: 40px;
 }
 
 .specialties__body-title {
+<<<<<<< HEAD
+    font-family: 'Neris';
+    font-style: normal;
+    color: var(--color-blue035);
+=======
     color: #035F8E;
 
+>>>>>>> 38389dcc95fb50bc2fe00b9c3b7cff0bdd691cd7
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;

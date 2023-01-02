@@ -10,21 +10,21 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 20.1px;
-    background-color: #005f91;
+    background-color: var(--color-blue005);
     width: 223.09px;
     padding: 16.47px 84.54px 15.47px 84.54px;
     margin: 49.53px auto 80.53px;
 }
 
 .PageStudens a:hover {
-    color: #005f91;
+    color: var(--color-blue005);
     background: #ccc;
     transition-duration: .1s ;
     transition-delay: .05s;
 }
 
 .PageStudents__title {
-    color: #1a1a1a;
+    color: var(--color-black1a);
     line-height: 33.5px;
     font-size: 25px;
     text-align: center;

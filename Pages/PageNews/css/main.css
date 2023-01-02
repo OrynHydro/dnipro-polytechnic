@@ -69,8 +69,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background: rgba(2, 87, 132, 0.77);
-    border: 1px solid #025784;
+    background:var(--color-blueRgba);
+    border: 1px solid var(--color-blue025);
 }
 
 .overlay2 {
@@ -80,8 +80,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background: rgba(2, 87, 132, 0.77);
-    border: 1px solid #025784;
+    background:var(--color-blueRgba);
+    border: 1px solid var(--color-blue025);
 }
 
 .overlay3 {
@@ -91,8 +91,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background: rgba(2, 87, 132, 0.77);
-    border: 1px solid #025784;
+    background:var(--color-blueRgba);
+    border: 1px solid var(--color-blue025);
 }
 
 .details__navpart-item a {
@@ -107,12 +107,12 @@
 }
 
 .details__navpart-item a:hover {
-    background:rgba(2, 87, 132, 0.77);
+    background:var(--color-blueRgba);
     color: #fbfbfb;
 }
 
 .details__navpart-item h1:hover {
-    color: #005F91;
+    color: var(--color-blue005);
 }
 
 .details__navpart-item p {
@@ -120,7 +120,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15.6px;
-    color: #373737;
+    color: var(--color-gray37);
 }
 
 .detailsnav__button {
@@ -182,7 +182,7 @@
     font-size: 25px;
     line-height: 33.5px;
     width: 722px;
-    color:#1a1a1a;
+    color:var(--color-black1a);
     margin-bottom: 13px;
 }
 

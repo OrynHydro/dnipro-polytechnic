@@ -13,10 +13,10 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: #1A1A1A;
+    color: var(--color-black1a);
 }
 .main__eighthPage-blueBlock {
-    background: #035F8E;
+    background: var(--color-blue035);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
     margin-top: 43px;
     padding: 40px 60px;
@@ -84,7 +84,7 @@
     line-height: 150.5%;
 }
 .main__eighthPage-btn1 {
-    background: #035F8E;     
+    background: var(--color-blue035);     
     color: #fff;
 }
 .main__eighthPage-btn1:hover {
@@ -95,7 +95,7 @@
 }
 .main__eighthPage-btn2 {
     margin-left: 19px;
-    border: 1px solid #035F8E;
+    border: 1px solid var(--color-blue035);
     color: #000000;
 }
 .main__eighthPage-btn2:hover {
@@ -118,7 +118,7 @@
     width: 1220px;
     display: flex;
     justify-content: space-between;
-    background: #035F8E;
+    background: var(--color-blue035);
 }
 .leftSide {
     display: flex;
@@ -191,7 +191,7 @@ label:last-child {
     width: 1220px;
     height: 577px;
     object-fit: contain;
-    border: 1px solid #035F8E;
+    border: 1px solid var(--color-blue035);
 }
 .mySlides h1 {
     text-align: center;
