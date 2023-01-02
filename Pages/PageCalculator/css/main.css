@@ -7,6 +7,8 @@
 
 .calculator__title {
     color: var(--color-black1a);
+    color: #1A1A1A;
+
     display: flex;
     margin: 0 auto;
     font-weight: 700;
@@ -19,7 +21,11 @@
     display: flex;
     align-items: center;
     background: var(--color-blue035);
+    background: #035F8E;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    align-items: center;
     margin-bottom: 68px;
 }
 
@@ -32,8 +38,9 @@
 }
 
 .calculator__EIA-subtitle {
-    align-self: center;
     color: #FFFFFF;
+
+    align-self: center;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -42,6 +49,7 @@
 
 .calculator__EIA-title {
     color: #FFFFFF;
+
     font-weight: 900;
     font-size: 22px;
     line-height: 29px;
@@ -63,14 +71,16 @@
 }
 
 .specialties__body-item {
+    background: #FBFBFB;
+    border: 1px solid #A4A4A4;
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 244px;
     padding: 26px 14px;
     gap: 15px;
-    background: #FBFBFB;
-    border: 1px solid #A4A4A4;
+
     transition: background 0.5s ease-in-out;
     cursor: pointer;
 }
@@ -97,8 +107,8 @@
 }
 
 .specialties__body-item p {
-    width: fit-content;
     color: #292929;
+    width: fit-content;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -110,25 +120,26 @@
 }
 
 .specialties__body-item input[type="radio"] {
-    appearance: none;
     background: #D7D7D7;
+    border: 3px solid transparent;
+
+    appearance: none;
     width: 13px;
     height: 13px;
-    border: 3px solid transparent;
     border-radius: 50%;
 }
 
 .specialties__body-item:hover input[type="radio"] {
-    appearance: none;
     background: transparent;
     border: 3px solid #FFFFFF;
+    appearance: none;
 }
 
 .calculator__specialties-found_in {
-    display: flex;
-    flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
 }
 
 .specialties__found_in-body {
@@ -167,25 +178,29 @@
 }
 
 .specialties__found_in-count input {
+    color: #2D2C2C;
+
     margin-left: 4px;
     width: 10px;
     border: none;
     height: fit-content;
 
-    color: #2D2C2C;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
 }
 
 .specialties__found_in-item {
+    border: 1px solid #E9E9E9;
+
     display: grid;
     grid: 1fr / 1fr 4fr 1fr;
     padding: 17px 40px;
     justify-content: center;
-    border: 1px solid #E9E9E9;
     align-items: center;
-    transition: background 0.5s ease-in-out;
+
+    transition: background 0.5s linear;
+    transition-duration: 0.5s;
 }
 
 .specialties__found_in-item:hover {
@@ -206,6 +221,8 @@
 }
 
 .specialties__found_in-number {
+    color: #000000;
+
     display: flex;
     align-items: center;
     width: 100%;
@@ -214,7 +231,6 @@
     background: transparent;
     cursor: auto;
 
-    color: #000000;
     font-weight: 700;
     font-size: 22px;
     line-height: 29px;
@@ -226,14 +242,16 @@
 }
 
 .specialties__found_in-name {
+    color: #000000;
+    background: transparent;
+
     display: flex;
     align-items: center;
     width: 100%;
     outline: none;
     border: none;
-    background: transparent;
     cursor: auto;
-    color: #000000;
+
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
@@ -252,9 +270,11 @@
 
 .specialties__found_in-btn a {
     color: #000000;
+    
+    align-items: center;
+    height: fit-content;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    align-items: center;
-    height: fit-content;
 }
