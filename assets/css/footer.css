@@ -71,8 +71,13 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    text-decoration-line: underline;
     color: #093864;
+}
+.footer__siteMap:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 .copi {
     font-weight: 400;
@@ -132,4 +137,8 @@
 }
 .youtube i:hover {
     color: red;
+}
+
+@media screen and (max-width: 1024px) {
+
 }

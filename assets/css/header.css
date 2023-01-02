@@ -51,7 +51,7 @@ header {
 }
 
 .header__social-item:hover { 
-    color: #093864;
+    color: #005F91;
 }
 
 .header__social-item:nth-child(3):hover {
@@ -92,7 +92,7 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
-    background: #005f91;
+    background: var(--color-blue005);
     padding: 18.48px 53.66px 16.48px 53.66px;
 }
 

@@ -7,22 +7,19 @@
 
 .calculator__title {
     color: #1A1A1A;
-
     display: flex;
     margin: 0 auto;
-    margin-bottom: 43px;
-
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
+    margin-bottom: 43px;
 }
 
 .calculator__EIA {
-    background: #035F8E;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
-
     display: flex;
     align-items: center;
+    background: #035F8E;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
     margin-bottom: 68px;
 }
 
@@ -35,19 +32,16 @@
 }
 
 .calculator__EIA-subtitle {
-    color: #FFFFFF;
-
     align-self: center;
-    margin-bottom: 7px;
-
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    margin-bottom: 7px;
 }
 
 .calculator__EIA-title {
     color: #FFFFFF;
-
     font-weight: 900;
     font-size: 22px;
     line-height: 29px;
@@ -69,18 +63,16 @@
 }
 
 .specialties__body-item {
-    background: #FBFBFB;
-    border: 1px solid #A4A4A4;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 244px;
     padding: 26px 14px;
     gap: 15px;
-
-    transition: background 0.5s linear;
-    transition-duration: 0.5s;
+    background: #FBFBFB;
+    border: 1px solid #A4A4A4;
+    transition: background 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .specialties__body-item:hover {
@@ -91,7 +83,6 @@
 
 .specialties__body-item path{
     fill: #000000;
-
     margin: 26px 16px;
 }
 
@@ -106,10 +97,8 @@
 }
 
 .specialties__body-item p {
-    color: #292929;
-
     width: fit-content;
-
+    color: #292929;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -121,27 +110,25 @@
 }
 
 .specialties__body-item input[type="radio"] {
-    background: #D7D7D7;
-    border: 3px solid transparent;
-
     appearance: none;
+    background: #D7D7D7;
     width: 13px;
     height: 13px;
+    border: 3px solid transparent;
     border-radius: 50%;
 }
 
 .specialties__body-item:hover input[type="radio"] {
+    appearance: none;
     background: transparent;
     border: 3px solid #FFFFFF;
-    appearance: none;
 }
 
 .calculator__specialties-found_in {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
-
     display: flex;
     flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
 }
 
 .specialties__found_in-body {
@@ -157,7 +144,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 2px grey;
+    box-shadow: inset 0 0 2px grey; 
     border-radius: 10px;
 }
 
@@ -174,40 +161,36 @@
 
 .specialties__found_in-count label {
     color: #2D2C2C;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
 }
 
 .specialties__found_in-count input {
-    color: #2D2C2C;
-    
+    margin-left: 4px;
     width: 10px;
     border: none;
     height: fit-content;
-    margin-left: 4px;
 
+    color: #2D2C2C;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
 }
 
 .specialties__found_in-item {
-    border: 1px solid #E9E9E9;
-
     display: grid;
     grid: 1fr / 1fr 4fr 1fr;
-    justify-content: center;
-    align-items: center;
     padding: 17px 40px;
-
-    transition: background 0.5s linear;
-    transition-duration: 0.5s;
+    justify-content: center;
+    border: 1px solid #E9E9E9;
+    align-items: center;
+    transition: background 0.5s ease-in-out;
 }
 
 .specialties__found_in-item:hover {
     background: #035F8E;
+    cursor: pointer;
 }
 
 .specialties__found_in-item:hover .specialties__found_in-number {
@@ -223,16 +206,15 @@
 }
 
 .specialties__found_in-number {
-    color: #000000;
-    background: transparent;
-    border: none;
-
     display: flex;
     align-items: center;
     width: 100%;
     outline: none;
+    border: none;
+    background: transparent;
     cursor: auto;
 
+    color: #000000;
     font-weight: 700;
     font-size: 22px;
     line-height: 29px;
@@ -244,16 +226,14 @@
 }
 
 .specialties__found_in-name {
-    color: #000000;
-    background: transparent;
-    border: none;
-
     display: flex;
     align-items: center;
     width: 100%;
     outline: none;
+    border: none;
+    background: transparent;
     cursor: auto;
-
+    color: #000000;
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
@@ -272,12 +252,9 @@
 
 .specialties__found_in-btn a {
     color: #000000;
-
-    align-items: center;
-    height: fit-content;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-
+    align-items: center;
+    height: fit-content;
 }

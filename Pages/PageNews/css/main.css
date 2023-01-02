@@ -102,14 +102,13 @@
     font-size: 13px;
     padding: 4px 21px 6px 21px;
     position: relative;
-    position: relative;
     top: 58px;
     left: 77px;
 }
 
 .details__navpart-item a:hover {
     background:rgba(2, 87, 132, 0.77);
-    color: #fff;
+    color: #fbfbfb;
 }
 
 .details__navpart-item h1:hover {
