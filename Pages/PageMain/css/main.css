@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat;
+    background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat 100%;
     background-size: cover;
 }
 
@@ -41,6 +41,7 @@ body{
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
+    padding-left: 10px;
 }
 .main__block-title {
     color: #FFFFFF;
@@ -112,11 +113,19 @@ body{
     height: 318px;
 }
 
+
+.news__block-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .news__block-text {
-    height: 102px;
+    height: 318px;
     width: 313px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 28px 37px 14px 55px;
 }
 .news__block-subtitle {
@@ -180,3 +189,83 @@ body{
     border: 1px solid #005F91;
 }
 
+@media screen and (max-width: 1024px){
+    .wrap {
+        width: 942px;
+    }
+
+    .main__block-subtitle {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .main__block-title {
+        font-weight: 700;
+        font-size: 163px;
+        line-height: 218px;
+    }
+    
+    .news {
+        padding: 36px 0px 73px;
+    }
+    
+    .news__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .news__block {
+        margin: 42px 0px 73px; 
+        gap: 20px;
+    }
+    
+    .news__block-item {
+        width: 461px;
+        height: 235px;
+    }
+    
+    .news__block-img {
+        width: 188px;
+        height: 235px;
+    }
+    
+    .news__block-text {
+        justify-content: center;
+        height: 235px;
+        padding: 20px 21px 24px 41px;
+    }
+
+    .news__block-subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 14px;
+    }
+    
+    .news__block-description {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .news__block-btn {
+        padding: 4px 25px;
+        width: fit-content;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 20px 0px 0px;
+    }
+    
+    .news__block-btn:hover {
+        background: #005F91;
+        border: 1px solid #005F91;
+        color: #FFFFFF;
+    }
+    
+    .news__block-date {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
