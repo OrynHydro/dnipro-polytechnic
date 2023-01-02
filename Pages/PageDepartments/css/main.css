@@ -52,7 +52,7 @@
     border: none;
 }
 .main__fourthPage-blockItem:hover path {
-    fill: #005F91;
+    fill: var(--color-blue005);
     transition-duration: .1s;
     transition-delay: .05s;
 }
@@ -73,7 +73,7 @@
     font-weight: 900;
     font-size: 18px;
     line-height: 145%;
-    color: #005F91;
+    color: var(--color-blue005);
     position: relative;
     left: 146px;
 }
