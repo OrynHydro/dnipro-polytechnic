@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 .footer__bottom-container {
-    border-top:1px solid #D2D2D2;
+    border-top:1px solid var(--color-grayD2);
     justify-content: space-around;
     margin-bottom: 54px;
 }
