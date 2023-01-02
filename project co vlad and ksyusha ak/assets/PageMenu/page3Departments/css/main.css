@@ -115,6 +115,8 @@
 .PageFaculty__nav-item:hover {
     color: #fff;
     background-color: #005f91;
+    transition-delay: .05s ;
+    transition-duration: .1s;
 }
 
 .PageFaculty__detailsnav-info {

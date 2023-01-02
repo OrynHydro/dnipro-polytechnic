@@ -119,38 +119,55 @@
 
 .PageFaculty__detailsnav-info {
     width: 968px;
-    height: 251px;
     background: #fff;
     display: flex;
     flex-direction: column;
-    padding: 34px 62px 0 62px;
-    padding-top: 34px;
+    padding: 36px 50px 37px 58px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.PageFaculty__detailsnav-info h1 {
+.PageFaculty__detailsnav-infoTitle {
     font-size: 22px;
     line-height: 29.48px;
     color: #000;
 }
 
-.PageFaculty__detailsDegrees {
-    padding-top: 52px;
+.PageFaculty__detailsPersonalities {
+    margin-top: 69px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px 20px;
 }
 
-.PageFaculty__detailsDegrees-item {
-    width: 254px;
-    border: 2px solid #d9d9d9;
-    text-align: center;
-    padding: 24px 0px 25px 0px;
+.PageFaculty__detailsPersonalities-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 187px;
+}
+
+.PageFaculty__detailsPersonalities-item p {
+    display: inline-block;
+    padding: 98px 74px 119px 74px;
+    background-color: #e1e1e1;
     color: #000;
+    line-height: 21.44px;
+    font-size: 16px;
 }
 
-.PageFaculty__detailsDegrees-item:hover {
-    background-color: #005f91;
-    border: 2px solid #005f91;
-    color: #fff;
+.PageFaculty__detailsPersonalities-item span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: #1a1a1a;
+    margin-top: 12px;
+}
+.PageFaculty__detailsPersonalities-item h1 {
+    color: #373737;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26.8px;
+    padding: 0 25px ;
 }
