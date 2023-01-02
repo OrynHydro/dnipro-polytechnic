@@ -1,5 +1,5 @@
 .footer {
-    width: 100vw;
+    width: 100%;
     align-items: center;
     background: #fff;
     justify-content: center;
@@ -176,10 +176,6 @@
     .footer__wrap {
         width: 720px;
     }
-    .footer__logo {
-        width: 138px;
-        height: 55px;
-    }
     .footer__top-menu-item:nth-child(1) {
         position: relative;
         right: -60px;
@@ -199,6 +195,9 @@
     .footer__top-menu-item:nth-child(6) {
         position: relative;
         right: 25px;
+    }
+    .footer__bottom-container {
+        margin-bottom: 10px;
     }
     .footer__Block-info {
         position: relative;
