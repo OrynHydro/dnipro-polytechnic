@@ -7,7 +7,6 @@ body{
     overflow-x: hidden;
 }
 
-
 .main__block {
     background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat 100%;
 
@@ -35,6 +34,7 @@ body{
 .main__block-content {
     z-index: 2;
     width: 1220px;
+    height: 330px;
 }
 
 .main__block-subtitle {
@@ -46,19 +46,24 @@ body{
     font-size: 20px;
     line-height: 27px;
 }
+
 .main__block-title {
     color: #FFFFFF;
+
+    margin-bottom: 30px;
 
     font-weight: 900;
     font-size: 178px;
     line-height: 239px;
 }
+
 .main__block-btn {
     color: #FFFFFF;
     background: none;
     border: 1px solid #FFFFFF;
 
     padding: 17px 40px;
+    margin-left: 10px;
 
     font-weight: 400;
     font-size: 17px;
