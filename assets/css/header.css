@@ -7,7 +7,7 @@ header {
 }
 
 .header hr {
-    border: 1px solid #d2d2d2;
+    border: 1px solid var(--color-grayD2);
 }
 
 
@@ -51,7 +51,7 @@ header {
 }
 
 .header__social-item:hover { 
-    color: #005F91;
+    color: var(--color-blue005);
 }
 
 .header__social-item:nth-child(3):hover {
@@ -98,7 +98,7 @@ header {
 
 
 .headertop__btn:hover {
-    color: #005f91;
+    color: var(--color-blue005);
     background: #ccc;
     transition-duration: .1s ;
     transition-delay: .05s;
@@ -121,7 +121,7 @@ header {
 }
 
 .menu-item__text {
-    color: #373737;
+    color: var(--color-gray37);
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
@@ -170,8 +170,8 @@ header {
 }
 
 .navBlock-item:hover {
-    background: #005f91;
-    color: #fff;
+    background: var(--color-blue005);
+    color: #fff;    
 }
 
 
