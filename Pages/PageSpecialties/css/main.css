@@ -62,7 +62,7 @@
 }
 
 .specialties__body-number {
-    color: #035F8E;
+    color: var(--color-blue035);
     font-weight: 900;
     font-size: 30px;
     line-height: 40px;
@@ -71,7 +71,7 @@
 .specialties__body-title {
     font-family: 'Neris';
     font-style: normal;
-    color: #035F8E;
+    color: var(--color-blue035);
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
