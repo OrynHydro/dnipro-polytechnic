@@ -173,3 +173,21 @@ header {
     background: #005f91;
     color: #fff;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .headertop__wrap { width: 930px; }
+    .wrap {width: 918px; }
+    .header__lang { display: none ;}
+    .menu-item__text {font-size: 12px; line-height: 16.08px;}
+    .search__box {left: 0;}
+    .headertop__input { padding: 13px 172px 14px 22px; width: 328px;}
+    .header__social {display: none;}
+    .header__container-top {justify-content: space-between;}
+    .header__lang {display: flex;}
+    .header__lang:hover .chooselang__menu {box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; margin: 20px 0 0 -50px;}
+    .headertop__btn {font-size: 15px; line-height: 20.1px; padding: 19.44px 42.33px 18.44px 40.69px; }
+    .header__bottom__menu-item:hover:nth-child(7) .menu__navigation,
+    .header__bottom__menu-item:hover:nth-child(8) .menu__navigation,
+    .header__bottom__menu-item:hover:nth-child(9) .menu__navigation { position: absolute; right: 0;} 
+}
