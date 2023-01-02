@@ -119,6 +119,7 @@
     display: flex;
     justify-content: space-between;
     background: var(--color-blue035);
+    border: 1px solid var(--color-blue035);
 }
 .leftSide {
     display: flex;
