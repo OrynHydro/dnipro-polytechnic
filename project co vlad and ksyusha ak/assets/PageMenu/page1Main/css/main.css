@@ -121,14 +121,13 @@
     width: 1336px;
     background: #fff;
     display: flex;
-    padding-top: 44px;
+    padding: 44px 45px 46px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .PageFaculty__detailsnav {
     display: flex;
     flex-direction: column;
-    margin-left: 46px;
 }
 
 .PageFaculty__detailsnav-name span {
@@ -193,17 +192,19 @@
     padding: 30px 80px 0 0;
 }
 
-.details__photo {
-    height: 374px;
-    background-color: #ededed;
-    margin-right: 45px;
-}
-
 .details__photo p {
+    display: inline-block;
+    background-color: #ededed;
     width: 290px;
     font-size: 16px;
     font-weight: 400;
     line-height: 21.44px;
     color: #000;
     padding: 175px 89px 178px 105px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px; flex-direction: column}
+    .details__photo p {margin-right: 0; font-size: 12px; width: 200px; padding: 110px 0px 110px 0px; text-align: center;}
 }

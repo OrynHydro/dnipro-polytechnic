@@ -160,3 +160,10 @@
     transition-delay: .05s ;
     transition-duration: .2s;
 }
+
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px;}
+    .PageFaculty__detailsScience {display: flex; flex-direction: column; gap: 10px;}
+    .PageFaculty__detailsScience-item:first-child {padding: 20px 0; text-align: center;}
+    .PageFaculty__detailsScience-item:nth-child(2) {padding: 20px 0; text-align: center; width: 468px;}
+}

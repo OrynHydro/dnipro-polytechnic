@@ -171,3 +171,8 @@
     text-decoration: underline;
     text-decoration-color: #d0d0d0;
 }
+
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px;}
+    .PageFaculty__detailsDisciplines-item h1 {font-size: 18px;}
+}

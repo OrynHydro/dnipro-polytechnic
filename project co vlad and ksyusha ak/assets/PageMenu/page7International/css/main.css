@@ -167,3 +167,8 @@
     color: #005f91;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px;}
+    
+}

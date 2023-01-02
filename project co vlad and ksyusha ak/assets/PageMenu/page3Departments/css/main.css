@@ -143,7 +143,7 @@
 }
 
 .PageFaculty__detailsDepartments-item {
-    width: 844px;
+    width: 843px;
     height: 115px;
     display: flex;
     align-items: center;
@@ -190,3 +190,9 @@
     line-height: 26.8px;
 }
 
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px;}
+    .PageFaculty__detailsDepartments-item {width: 540px; justify-content: space-around;}
+    .detailsDepartments-depName {padding: 0;}
+    .PageFaculty__detailsDepartments {width: 541px;}
+}

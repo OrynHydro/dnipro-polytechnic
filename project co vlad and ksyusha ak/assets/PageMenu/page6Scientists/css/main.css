@@ -171,3 +171,8 @@
     line-height: 26.8px;
     padding: 0 25px ;
 }
+
+@media screen and (max-width: 1024px) {
+    .PageFaculty__detailsnav-info {width: 640px;}
+    .PageFaculty__detailsPersonalities {gap:10px 20px;}
+}
