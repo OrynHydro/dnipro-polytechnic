@@ -194,5 +194,15 @@
     line-height: 17.42px;
 }
 
-
+@media screen and (max-width: 1024px) {
+    .newsdetails {grid-template-columns: 251px 795px; grid-template-rows: 251px 623px; grid-column-gap: 44px;}
+    .details_imgsett1 {width: 623px; height: 269px;}
+    .details_imgsett2 {width: 623px;}
+    .details_imgsett3 {width: 623px;}
+    .header__infopart h1 {font-size: 20px;}
+    .details__infopart-item p {width: 616px;}
+    .details_imgsett3 {margin: 40px 0 0px 0;}
+    .dayBlock {height: 2100px;}
+    .header__infopart span {margin: 50px 0 0 -170px;}
+}
 

@@ -176,7 +176,7 @@
 .descriptionmedal__ul {
     margin: 15px 0 0 120px;
     list-style-type: square;
-    list-style-image: url(../images/icons/blueli.svg);
+    list-style-image: url(/assets/images/img/PageMedals/blueli.svg);
 }
 
 .descriptionmedal__ul li {
@@ -330,3 +330,15 @@
     width: 867px;
     margin: 49px 0 0 72px;
 }
+
+@media screen and (max-width: 1024px) {
+    .pageMedals__honoryranks-item:nth-child(1), .pageMedals__honoryranks-item:nth-child(2) {margin-top: 0px;}
+    .pageMedals__honoryranks-item {margin-top: 10px;}
+    .pageMedals__distinctions-item p {padding: 13px 50px 38px 50px;}
+    .descriptiongoldmedal__logo span {font-size: 14px; text-align: center;}
+    .descriptiongoldmedal__logo img {margin-left: 10px;}
+    .pageMedals__honorydescription p {padding: 5px 10px 26px 10px;}
+    .pageMedals__honorydescription img {margin-top: 10px;}
+    .descriptionHonory__ul li {width: 894px;padding: 15px 150px 0px 23px; }
+}
+

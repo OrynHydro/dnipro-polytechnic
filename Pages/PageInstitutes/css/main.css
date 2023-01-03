@@ -99,3 +99,13 @@
     color: var(--color-blue005);
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .instituteBlock__table-item {width: 370px;}
+    .table__navigation-item {width: 298px;}
+    .instituteBlock__table-item p {font-size: 14px;line-height: 17.68px;}
+    .tabelrows:first-child .instituteBlock__table-item:nth-child(2) img {display: none;}
+    .instituteBlock {height: 720px;}
+}
+

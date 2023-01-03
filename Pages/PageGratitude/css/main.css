@@ -76,3 +76,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+    .PageGratitude__top {display: none;}
+    .PageGratitude__top p {display: none;}
+    .PageGratitude__people-item {width: 894px;}
+}
+
+
