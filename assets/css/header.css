@@ -174,8 +174,14 @@ header {
     color: #fff;    
 }
 
+.menu__btn {
+    color: #2c505f;
+    font-size: 38px;
+    display: none;
+}
 
 @media screen and (max-width: 1024px) {
+    header {box-shadow: none;}
     .headertop__wrap { width: 930px; }
     .wrap {width: 918px; }
     .header__lang { display: none ;}
@@ -187,7 +193,12 @@ header {
     .header__lang {display: flex;}
     .header__lang:hover .chooselang__menu {box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; margin: 20px 0 0 -50px;}
     .headertop__btn {font-size: 15px; line-height: 20.1px; padding: 19.44px 42.33px 18.44px 40.69px; }
-    .header__bottom__menu-item:hover:nth-child(7) .menu__navigation,
-    .header__bottom__menu-item:hover:nth-child(8) .menu__navigation,
-    .header__bottom__menu-item:hover:nth-child(9) .menu__navigation { position: absolute; right: 0;} 
+    .header__bottom__menu-item:hover:nth-child(7) .menu__navigation,.header__bottom__menu-item:hover:nth-child(8) .menu__navigation,.header__bottom__menu-item:hover:nth-child(9) .menu__navigation { position: absolute; right: 0;} 
+}
+
+@media screen and (max-width: 768px) {
+    .menu__btn {display: block;}
+    .headertop__btn, .header__lang, .search__box {display: none;}
+    .header__top-logo {position: relative; right: 100px;}
+    .header__container-top {justify-content:space-around;}
 }
