@@ -72,6 +72,7 @@
     font-size: 12px;
     line-height: 16px;
     color: #093864;
+    width: 65px;
 }
 .footer__siteMap:hover {
     color: rgb(0, 0, 255);
@@ -118,8 +119,6 @@
 .footer__btn:hover {
     background-color: #000;
     color: #fff;
-    transition-duration: .1s;
-    transition-delay: .05s;
 }
 .block1 {
     position: relative;
@@ -170,6 +169,90 @@
     transform: rotate(-180deg)
 }
 
+/* Adaptated footer */
+
+/* .footer768 {
+    width: 100vw;
+    background-color: #fff;
+    display: none;
+    justify-content: center;
+}
+.footer768-wrap {
+    width: 627px;
+    margin-left: 70px;
+}
+.footer768-container {
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer768-blockContent,
+.footer768-blockContent1 {
+    margin-bottom: 50px;
+    width: 313px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    bottom: 220px;
+}
+.footer768-blockContent:nth-child(2) {
+    position: relative;
+    bottom: 400px;
+    left: 85px;
+}
+.footer768-blockContent:nth-child(3) {
+    position: relative;
+    left: 450px;
+    bottom: 640px;
+}
+.footer768-blockContent:nth-child(2) p {
+    position: relative;
+    left: -10px;
+    top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 100px;
+    text-align: center;
+    color: #606060;
+}
+.footer768-blockContent1 {
+    position: relative;
+    left: 105px;
+    bottom: 235px;
+}
+.footer768-container hr {
+    height: 560px;
+    border: 1px solid #ececec;
+    margin-top: 70px;
+}
+.footer768-container hr:nth-child(2) {
+    height: 627px;
+    border: 1px solid #ececec;
+    margin-top: 70px;
+    transform: rotate(90deg);
+}
+
+.linkToMap {
+    position: relative;
+    top: 60px;
+    left: 35px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #093864;
+    width: 100px;
+}
+.linkToMap:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+} */
+
+
 @media screen and (max-width: 1024px) {
     .wrap {
         width: 894px;
@@ -216,7 +299,7 @@
         font-size: 13px;
         line-height: 17px;
     }
-    .footer__siteMap, .copi {
+    .footer__siteMap {
         font-size: 13px;
         line-height: 17px;
     }
@@ -241,4 +324,63 @@
         position: relative;
         top: 23px;
     }
+    .copi {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
+
+/* @media screen and (max-width: 768px) {
+    .footer768 {
+        display: flex;
+    }
+    .footer__top,.footer__bottom {
+        display: none;
+    }
+    .footer__siteMap {
+        font-size: 14px;
+        line-height: 19px;
+        position: relative;
+        left: 28px;
+        top: 50px;
+        width: 75px;
+    }
+    .copi {
+        position: relative;
+        top: 56px;
+    }
+    .footer__adress {
+        width: 212px;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+        top: 30px;
+    }
+    .contactsBlock a {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        width: 115px;
+        position: relative;
+        left: -5px;
+        top: 35px;
+    }
+    .social__item i {
+        font-size: 33px;
+    }
+    .social__item i:nth-child(1) {
+        margin-right: 15px;
+    }
+    .footer__block-social {
+        position: relative;
+        top: 33px;
+        left: -28px;
+    }
+    .footer768-container form {
+        position: relative;
+        bottom: ;
+    }
+} */
