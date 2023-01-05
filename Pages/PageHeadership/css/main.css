@@ -160,6 +160,9 @@
         margin-bottom: 18px;
         line-height: 17px;
     }
+    .specialBlock {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
