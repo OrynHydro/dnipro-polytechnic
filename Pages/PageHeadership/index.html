@@ -46,6 +46,38 @@
 						</ul>
 					</div>
 					<a class="headertop__btn" href="/Pages/PageDepartments/index.html">Кафедры</a>
+					<div id="toggle"></div>
+					<div class="toggleNav">
+						<nav>
+							<li><a href="#">Про університет</a></li>
+							<li><a href="#">Освітня діяльність</a></li>
+							<li><a href="#">Наукова діяльність</a></li>
+							<li><a href="#">Міжнародна діяльність</a></li>
+							<li><a href="#">Вступнику</a></li>
+							<li><a href="#">Студенту</a></li>
+							<li><a href="#">Держслужбовцю</a></li>
+							<li><a href="#">Бібліотека</a></li>
+							<li><a href="#">Кафедри</a></li>
+						</nav>
+						<div class="toggleNav__bottom">
+							<div class="toggleNav__social">
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							</div>
+							<div class="toggleNav__languages">
+								<a href="#">ua</a>
+								<a href="#">eng</a>
+							</div>
+						</div>
+						<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$('#toggle').click(function(){
+									$('.toggleNav').toggleClass('active')
+								});
+							});
+						</script>
+					</div>
 					</div>
 					<hr>
 					<div class="wrap">
@@ -152,7 +184,8 @@
 						</div>					 
 					</div>
 				</div>	
-			</div>		 
+			</div>	
+			<script src="/assets/js/header.js"></script>	 
 		</header>
 
 		<main>
