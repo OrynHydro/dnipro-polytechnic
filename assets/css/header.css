@@ -94,6 +94,7 @@ header {
     line-height: 19px;
     background: var(--color-blue005);
     padding: 18.48px 53.66px 16.48px 53.66px;
+    margin-right: -40px;
 }
 
 
@@ -174,14 +175,151 @@ header {
     color: #fff;    
 }
 
-.menu__btn {
-    color: #2c505f;
-    font-size: 38px;
+#toggle {
+    left: -60px;
+    top: 5px;
     display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
 }
 
+#toggle.active {
+    background: none;
+}
+
+#toggle::before {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #005f91;
+    transition: .2s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0 #005f91;
+}
+
+#toggle.active::before {
+    transform: translateY(0px) rotate(45deg);
+    box-shadow: 0 0 0 #fff;
+}
+
+#toggle::after {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #005f91;
+    transition: .2s;
+    transform: translateY(10px);
+}
+
+#toggle.active::after {
+    background-color: none;
+    transform: translateY(0px) rotate(-45deg);
+}
+
+
+.toggleNav {
+    background-color: #fff;
+    list-style: none;
+    height: 917px;
+    width: 398px;
+    position: absolute;
+    top: 105px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    display: none;
+    opacity: 0;
+
+}
+
+.toggleNav.active {
+    display: flex;
+}
+
+.toggleNav nav li a{
+    display: block;
+    height: 69px;
+    color: #000;
+    font-size: 15px;
+    line-height: 20.1px;
+    font-weight: 400;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 25px 0px 24px 69px;
+    background-image: url(/assets/images/img/Header_etc/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 321px;
+}
+
+.toggleNav nav li:hover {
+    background-color: rgba(126, 126, 126, 0.12);
+}
+
+.toggleNav__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 83px;
+}
+
+.toggleNav__social .fa-facebook {
+    font-size: 26px;
+    color: #e3e3e3;
+}
+
+.toggleNav__social .fa-instagram {
+    font-size: 25px;
+    color: #e3e3e3;
+}
+
+.toggleNav__social .fa-instagram:hover,
+.toggleNav__social .fa-facebook:hover {
+    color: var(--color-blue005);
+    transition-duration: .1s;
+}
+
+.toggleNav__languages {
+    margin: 37px 0 17px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.toggleNav__languages a {
+    width: 199.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+    line-height: 20.1px;
+    font-weight: 400;
+}
+
+.toggleNav__languages a:first-child {
+    border-right: 1px solid #5d778e;
+}
+
+
 @media screen and (max-width: 1024px) {
-    header {box-shadow: none;}
+    /*nav*/
+    #toggle,
+    #toggle::before,
+    #toggle::after {display: flex ;cursor: pointer;}
+    hr{display: none;}
+    header {box-shadow: none; height: 105px;}
+    .toggleNav {opacity: 1;}
+    /* */
     .headertop__wrap { width: 930px; }
     .wrap {width: 918px; }
     .header__lang { display: none ;}
@@ -190,10 +328,10 @@ header {
     .headertop__input { padding: 13px 172px 14px 22px; width: 328px;}
     .header__social {display: none;}
     .header__container-top {justify-content: space-between;}
-    .header__lang {display: flex;}
-    .header__lang:hover .chooselang__menu {box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; margin: 20px 0 0 -50px;}
-    .headertop__btn {font-size: 15px; line-height: 20.1px; padding: 19.44px 42.33px 18.44px 40.69px; }
+    .header__lang {display: none;}
+    .headertop__btn {font-size: 15px; line-height: 20.1px; padding: 19.44px 42.33px 18.44px 40.69px; display: none;}
     .header__bottom__menu-item:hover:nth-child(7) .menu__navigation,.header__bottom__menu-item:hover:nth-child(8) .menu__navigation,.header__bottom__menu-item:hover:nth-child(9) .menu__navigation { position: absolute; right: 0;} 
+    .header__container__bottom {display: none;}
 }
 
 @media screen and (max-width: 768px) {
