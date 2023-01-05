@@ -8,7 +8,7 @@ body{
 }
 
 .main__block {
-    background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat 100%;
+    background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat;
 
     width: 100%;
     height: 100vh;
