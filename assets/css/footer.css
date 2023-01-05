@@ -266,6 +266,8 @@
     .footer__siteMap {
         font-size: 13px;
         line-height: 17px;
+        display: inline-block;
+        width: 70px;
     }
     .footer__phoneNumber {
         display: inline-block;
