@@ -119,6 +119,8 @@
 .footer__btn:hover {
     background-color: #000;
     color: #fff;
+    transition-duration: .1s;
+    transition-delay: .05s;
 }
 .block1 {
     position: relative;
