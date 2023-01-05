@@ -1,0 +1,244 @@
+.footer {
+    width: 100%;
+    align-items: center;
+    background: #fff;
+    justify-content: center;
+}
+.footer__top {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__wrap {
+    width: 795px;
+    margin: 0 auto;
+    padding: 23px;
+}
+.footer__top-container,
+.footer__bottom-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom-container {
+    border-top:1px solid var(--color-grayD2);
+    justify-content: space-around;
+    margin-bottom: 54px;
+}
+.footer__top-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer__top-menu-item {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+.footer__top-menu-item:hover {
+    color: #002fa5;
+}
+
+.footer__bottom {
+    display: flex;
+    width: 100%;
+}
+.footer__Block-info {
+    margin-left: 32px;
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  
+}
+.contactsBlock a {
+    color: #333333;
+}
+.contactsBlock a:hover {
+    color: rgb(0, 0, 255);
+}
+.footer__logo {
+    display: flex;
+    width: 136px;
+    height: 54px;
+}
+.footer__siteMap {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #093864;
+}
+.footer__siteMap:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+    transition-duration: .1s;
+    transition-delay: .05s;
+}
+.copi {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #363636;
+}
+.footer__Block-title,
+.footer__Block-title2 {
+    display: flex;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #363636;
+    margin-bottom: 36px;
+}
+.footer__Block-title2 {
+    display: none;
+}
+.footer__adress {
+    display: flex;
+    width: 178px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #606060;
+}
+.footer__btn {
+    border: 1px solid #333333;
+    width: 199px;
+    padding: 14px 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    cursor: pointer;
+}
+.footer__btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition-duration: .1s;
+    transition-delay: .05s;
+}
+.block1 {
+    position: relative;
+    top: -13px;
+}
+.footer__block-social {
+    display: flex;
+    gap: 20px;
+}
+.social__item i {
+    font-size: 24px;
+    color: #E4E4E4;
+}
+.instagram i:hover {
+    color: #08446D;
+}
+.facebook i:hover {
+    color: #08446D;
+}
+.youtube i:hover {
+    color: red;
+}
+
+.footer form {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.footer__email2 {
+    border: 1px solid #B5B5C1;
+    border-radius: 28px;
+    padding: 8px 20px 8px 17px;
+}
+.footer__btn2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+    background: #006897;
+    border: transparent;
+    border-radius: 24px;
+    color: #fff;
+    position: relative;
+    right: 28px;
+    transform: rotate(-180deg)
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        width: 894px;
+    }
+    .footer__wrap {
+        width: 720px;
+    }
+    .footer__top-menu-item:nth-child(1) {
+        position: relative;
+        right: -60px;
+    }
+    .footer__top-menu-item:nth-child(2) {
+        position: relative;
+        right: -44px;
+    }
+    .footer__top-menu-item:nth-child(3) {
+        position: relative;
+        right: -37px;
+    }
+    .footer__top-menu-item:nth-child(4) {
+        position: relative;
+        right: -24px;
+    }
+    .footer__top-menu-item:nth-child(6) {
+        position: relative;
+        right: 25px;
+    }
+    .footer__bottom-container {
+        margin-bottom: 10px;
+    }
+    .footer__Block-info {
+        position: relative;
+        bottom: 26px;
+    }
+    .footer__Block-title {
+        position: relative;
+        top: 23px;
+    } 
+    .footer__Block-info:nth-child(5) {
+        position: relative;
+        left: -25px;
+    }
+    .footer__top-menu-item {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .footer__siteMap, .copi {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .footer__phoneNumber {
+        display: inline-block;
+        width: 137px;
+    }
+    .social__item i {
+        font-size: 21px;
+    }
+    .footer__btn {
+        display: none;
+    }
+    .footer form {
+        display: flex;
+    }
+    .footer__specialTitle {
+        display: none;
+    }
+    .footer__Block-title2 {
+        display: inline-block;
+        position: relative;
+        top: 23px;
+    }
+}

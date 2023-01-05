@@ -3,7 +3,7 @@ header {
     width: 100%;
     height: 166px;
     color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border-bottom: 1px solid #ddd;
 }
 
 .header hr {
@@ -174,7 +174,7 @@ header {
     color: #fff;
 }
 
-
+    
 @media screen and (max-width: 1024px) {
     .headertop__wrap { width: 930px; }
     .wrap {width: 918px; }
