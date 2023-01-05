@@ -13,7 +13,7 @@
 }
 
 .PageFaculty__info-logo {
-    background: #e1e1e1;
+    background: var(--color-grayE1);
     width: 252px;
     height: 185px;
 }
@@ -36,13 +36,13 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 18.76px;
-    color: #1a1a1a;
+    color: var(--color-black1a);
 }
 
 .info__details-name h1 {
     font-size: 30px;
     line-height: 40.2px;
-    color: #373737;
+    color: var(--color-gray37);
 }
 
 .info__details-contacts {
@@ -51,7 +51,7 @@
     margin-top: 54px;
     font-size: 14px;
     line-height: 18.76px;
-    color: #1a1a1a;
+    color: var(--color-black1a);
     font-weight: 300;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .info__details-contacts a {
-    color: #1a1a1a;
+    color: var(--color-black1a);
     font-weight: 700;
     font-size: 16px;
     line-height: 21.44px;
@@ -82,7 +82,7 @@
 }
 
 .faculty__social a:hover {
-    color: #005f91;
+    color: var(--color-blue005);
     transition-duration: .1s;
 }
 
@@ -90,7 +90,7 @@
 
 .PageFaculty__menu {
     display: flex;
-    margin-top: 105px;
+    margin: 105px 0 82px 0;
 }
 
 .PageFaculty__nav {
@@ -114,7 +114,7 @@
 
 .PageFaculty__nav-item:hover {
     color: #fff;
-    background-color: #005f91;
+    background-color: var(--color-blue005);
 }
 
 .PageFaculty__detailsnav-info {
@@ -134,13 +134,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.76px;
-    color: #1a1a1a;
+    color: var(--color-black1a);
 }
 
 .PageFaculty__detailsnav-name h1 {
     line-height: 40.2px;
     font-size: 30px;
-    color: #373737;
+    color: var(--color-gray37);
 }
 
 .PageFaculty__detailsnav-contacts {
@@ -151,7 +151,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.76px;
-    color: #1a1a1a;
+    color: var(--color-black1a);
 }
 
 .contacts__border {
@@ -181,7 +181,7 @@
 }
 
 .contacts__border-item .fa-solid:hover {
-    color: #005f91;
+    color: var(--color-blue005);
 }
 
 .PageFaculty__detailsnav-description {
