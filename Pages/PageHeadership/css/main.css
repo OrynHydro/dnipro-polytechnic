@@ -166,6 +166,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .specialBlock {
+        display: block;
+    }
     .specialColumn {
         display: none;
     }
@@ -174,5 +177,8 @@
         margin-left: 45px;
         position: relative;
         left: 20px;
+    }
+    .main__thirdPage-title {
+        margin-right: 100px;
     }
 }
