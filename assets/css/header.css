@@ -225,31 +225,44 @@ header {
     transform: translateY(0px) rotate(-45deg);
 }
 
+body.fixed {
+    overflow: hidden;
+    height: 100vh;
+}
 
-.toggleNav {
-    background-color: #fff;
-    list-style: none;
-    height: 917px;
+.toggleMenu {
+    height: 909px;
+    max-height: 909px;
     width: 398px;
     position: absolute;
     top: 105px;
     right: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-    display: none;
     opacity: 0;
     z-index: 99;
+    background-color: #fff;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    display: none;
 }
 
-.toggleNav.active {
+.toggleMenu.active {
     display: flex;
 }
 
-.toggleNav nav li a{
+.toggleNav {
+    max-height: 753px;
+    overflow: hidden;
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+}
+
+
+.toggleNav-itemTitle {
     display: block;
     height: 69px;
+    width: 398px;
     color: #000;
     font-size: 15px;
     line-height: 20.1px;
@@ -259,11 +272,55 @@ header {
     background-image: url(/assets/images/img/Header_etc/arrow.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 321px;
+    background-position-x: 321px; 
+    cursor: pointer;
 }
 
-.toggleNav nav li:hover {
+.toggleNav-item.activeinfo .toggleNav-itemTitle {
+    background-image: url(/assets/images/img/Header_etc/arrowDown.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 321px;
+    transition: .1s; 
+}
+
+.toggleNav-itemTitle:hover {
     background-color: rgba(126, 126, 126, 0.12);
+}
+
+.toggleNav-content ul li {
+    display:block;
+    color: #000;
+    font-size: 15px;
+    line-height: 20.1px;
+    font-weight: 400;
+    position: relative;
+    height: 0;
+    overflow:hidden;
+    transition: .5s;
+    background-color:rgba(126, 126, 126, 0.12);
+    cursor: pointer;
+}
+
+.toggleNav-item.activeinfo .toggleNav-content ul li {
+    height: 69px;
+    padding: 25px 0px 24px 69px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.toggleNav-item.activeinfo .toggleNav-itemTitle {
+    background-color: #fff;
+}
+
+.toggleNav-content ul li:hover {
+    background-color: rgba(126, 126, 126, 0.12);
+}
+
+.toggleNav__bottom {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
 }
 
 .toggleNav__social {
@@ -318,7 +375,7 @@ header {
     #toggle::after {display: flex ;cursor: pointer;}
     hr{display: none;}
     header {box-shadow: none; height: 105px;}
-    .toggleNav {opacity: 1;}
+    .toggleMenu {opacity: 1;}
     /* */
     .headertop__wrap { width: 930px; }
     .wrap {width: 918px; }
