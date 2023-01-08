@@ -380,7 +380,7 @@ body.fixed {
     .search__box {left: 0;}
     .headertop__input { padding: 13px 172px 14px 22px; width: 328px;}
     .header__social {display: none;}
-    .header__container-top {justify-content: space-between;}
+    .header__container-top {justify-content: space-between; border-bottom: 0;}
     .header__lang {display: none;}
     .headertop__btn {font-size: 15px; line-height: 20.1px; padding: 19.44px 42.33px 18.44px 40.69px; display: none;}
     .header__bottom__menu-item:hover:nth-child(7) .menu__navigation,.header__bottom__menu-item:hover:nth-child(8) .menu__navigation,.header__bottom__menu-item:hover:nth-child(9) .menu__navigation { position: absolute; right: 0;} 
@@ -391,5 +391,5 @@ body.fixed {
     .menu__btn {display: block;}
     .headertop__btn, .header__lang, .search__box {display: none;}
     .header__top-logo {position: relative; right: 100px;}
-    .header__container-top {justify-content:space-around;}
+    .header__container-top {justify-content:space-around;border-bottom: 0;}
 }
