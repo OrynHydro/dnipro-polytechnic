@@ -19,7 +19,7 @@ button {
 
 body {
     font-family: 'Neris';
-    background: #FBFBFB;
+    background: var(--color-grayFB);
 }
 
 ul, ol {
