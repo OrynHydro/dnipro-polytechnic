@@ -390,6 +390,8 @@ body.fixed {
 @media screen and (max-width: 768px) {
     .menu__btn {display: block;}
     .headertop__btn, .header__lang, .search__box {display: none;}
-    .header__top-logo {position: relative; right: 100px;}
-    .header__container-top {justify-content:space-around;border-bottom: 0;}
+    .header__top-logo {position: relative; left: 65px;}
+    .header__container-top {justify-content:space-between;border-bottom: 0;}
+    .wrap {width: 768px;}
+    .headertop__wrap { width: 768px; }
 }

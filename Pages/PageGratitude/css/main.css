@@ -83,4 +83,9 @@
     .PageGratitude__people-item {width: 894px;}
 }
 
+@media screen and (max-width: 768px) {
+    .PageGratitude__title {margin: 56px 115px 43px 0;}
+    .PageGratitude__people-item {margin-left: 10px;width: 750px;justify-content: center;}
+}
+
 

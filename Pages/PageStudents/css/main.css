@@ -96,3 +96,10 @@
     font-weight: 400;
     padding-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .wrap {width: 768px;}
+    .PageStudents__details-item {margin-right: 125px;}
+    .PageStudens a {margin: 49.53px auto 80.53px 270px;}
+    .PageStudents__title {margin-right: 125px;}
+}
