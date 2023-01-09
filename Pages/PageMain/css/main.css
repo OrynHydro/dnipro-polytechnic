@@ -8,7 +8,7 @@ body{
 }
 
 .container {
-    max-width: 1220px;
+    width: 1220px;
     margin: 0 auto; 
 }
 
@@ -229,6 +229,11 @@ body{
     box-sizing: inherit;
 }
 
+@media screen and (max-width: 1230px){
+    .container {
+        width: 943px;
+    }
+}
 @media screen and (max-width: 1024px){
     .container {
         width: 943px;
