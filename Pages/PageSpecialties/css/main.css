@@ -1,16 +1,18 @@
 .container {
     width: 1220px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .specialties {
     padding: 56px 0px 107px;
 }
+
 .specialties__title {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .specialties__search-block {
     border: 1px solid #A4A4A4;
 
@@ -24,7 +26,7 @@
 .specialties__search-block input[type=text] {
     background: transparent;
     border: none;
-    
+
     margin-right: 14px;
 
     font-weight: 400;
@@ -122,22 +124,22 @@
     .specialties {
         padding: 78px 0px 110px;
     }
-    
+
     .specialties__search-icon {
         display: flex;
         align-items: center;
         width: 14px;
         height: 14px;
     }
-    
+
     .specialties__body {
         gap: 40px;
     }
-    
+
     .specialties__body-block {
         padding: 25px 33px 23px;
     }
-    
+
     .specialties__body-number {
         font-size: 26px;
         line-height: 35px;
@@ -146,18 +148,18 @@
     .specialties__body-item:nth-child(1) {
         margin-top: 0px;
     }
-    
+
     .specialties__body-title {
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
         margin: 30px auto 22px;
     }
-    
+
     .specialties__body-item {
         padding-bottom: 24px;
     }
-    
+
     .specialties__body-loans {
         font-size: 18px;
         line-height: 24px;
