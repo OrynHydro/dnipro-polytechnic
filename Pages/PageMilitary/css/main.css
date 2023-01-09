@@ -49,11 +49,10 @@
     line-height: 27px;
     color: #242424;
 }   
-.main__eighthPage-row {
+.main__eightPage-content {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
-    padding-top: 21px;
 }
 .main__eighthPage-block {
     display: flex;

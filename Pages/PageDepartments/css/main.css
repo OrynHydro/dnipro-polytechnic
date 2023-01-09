@@ -32,6 +32,11 @@
     left: -32px;
     top: 2px;
 }
+.main__fourthPage-contentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
 .main__fourthPage-block {
     display: flex;
     margin-top: 34px;
@@ -102,19 +107,19 @@
 
 @media screen and (max-width: 1024px) {
     .main__fourthPage-blockItem {
-        width: 295px;
+        width: 280px;
     }
     .wrap {
         width: 925px;
     }
     .main__fourthPage-block {
         position: relative;
-        right: 25px;
+        right: 0px;
     }
     .main__fourthPage-description {
         font-size: 14px;
         line-height: 145%;
-        width: 180px;
+        width: 170px;
         left: 110px;
     }
     .main__fourthPage-blockItem svg {
@@ -123,9 +128,9 @@
     .main__fourthPage-title {
         left: 110px;
         font-size: 16px;
-        line-height: 145%;
+        line-height: 145%;  
     }
-    .main__fourthPage-column {
+    .main__fourthPage-content {
         gap: 21px;
     }
 }
@@ -139,7 +144,7 @@
     }
     .main__fourthPage-block {
         position: relative;
-        right: -10px;
+        right: -15px;
     }
     .main__fourthPage-description {
         font-size: 12px;
@@ -155,7 +160,7 @@
         font-size: 13px;
         line-height: 125%;
     }
-    .main__fourthPage-column {
+    .main__fourthPage-content {
         gap: 15px;
     }
     .main__fourthPage-header {

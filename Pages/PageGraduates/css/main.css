@@ -127,15 +127,10 @@ h2 {
 
 .photos-block-main {
     display: flex;
+    flex-wrap: wrap;
+    gap: 41px;
     margin-bottom: 66px;
-}
-.column {
-    position: relative;
-    left: -20px;
-    display: flex;
-    flex-direction: column;
-    gap: 61px;
-    margin-left: 41px;
+    margin-left: 25px;
 }
 .photo {
     background-image: url('/assets/images/img/PageGraduates/backgroundImage.svg');
