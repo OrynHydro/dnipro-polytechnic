@@ -223,7 +223,7 @@ header {
 
 body.fixed {
     overflow: hidden;
-    height: 100vh;
+    height: 120vh;
 }
 
 .toggleMenu {

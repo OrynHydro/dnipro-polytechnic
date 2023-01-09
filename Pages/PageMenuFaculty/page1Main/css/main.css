@@ -208,3 +208,11 @@
     .PageFaculty__detailsnav-info {width: 640px; flex-direction: column}
     .details__photo p {margin-right: 0; font-size: 12px; width: 200px; padding: 110px 0px 110px 0px; text-align: center;}
 }
+
+@media screen and (max-width: 768px) {
+    .info__details-name h1 {font-size: 25px;}
+    .PageFaculty__info {width: 700px; justify-content: space-around; gap: 20px;}
+    .PageFaculty__detailsnav-info {width: 460px;}
+    .contacts__border {width: 410px; justify-content: space-around;padding: 0;}
+    .PageFaculty__detailsnav-description {padding: 30px 0 0 0;}
+}

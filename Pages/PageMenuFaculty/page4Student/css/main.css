@@ -177,3 +177,13 @@
     .PageFaculty__detailsnav-info {width: 640px;}
     .PageFaculty__detailsDisciplines-item h1 {font-size: 18px;}
 }
+
+@media screen and (max-width: 768px) {
+    .PageFaculty__detailsnav-infoTitle {font-size: 20px;}
+    .PageFaculty__info {width: 700px; justify-content: space-around; gap: 20px;}
+    .info__details-name h1 {font-size: 25px;}
+    .PageFaculty__detailsnav-info {width: 460px;}
+    .PageFaculty__detailsDisciplines-item ul li a {font-size: 14px;}
+    .PageFaculty__detailsDisciplines-item h1 {font-size: 20px;}
+    .PageFaculty__detailsnav-infoTitle {font-size: 20px;}
+}

@@ -37,11 +37,11 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #333333;
+    color: var(--color-gray37);
     text-decoration: none;
 }
 .footer__top-menu-item:hover {
-    color: #002fa5;
+    color: var(--color-blue005);
 }
 
 .footer__bottom {
@@ -56,10 +56,10 @@
     gap: 5px;  
 }
 .contactsBlock a {
-    color: #333333;
+    color: var(--color-gray37);
 }
 .contactsBlock a:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue005);
 }
 .footer__logo {
     display: flex;
@@ -75,7 +75,7 @@
     width: 65px;
 }
 .footer__siteMap:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue005);
     text-decoration: underline;
     transition-duration: .1s;
     transition-delay: .05s;
@@ -84,7 +84,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #363636;
+    color: var(--color-gray37);
 }
 .footer__Block-title,
 .footer__Block-title2 {
@@ -92,7 +92,7 @@
     font-weight: 900;
     font-size: 15px;
     line-height: 20px;
-    color: #363636;
+    color: var(--color-gray37);
     margin-bottom: 36px;
 }
 .footer__Block-title2 {
