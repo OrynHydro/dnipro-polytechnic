@@ -167,3 +167,11 @@
     .PageFaculty__detailsScience-item:first-child {padding: 20px 0; text-align: center;}
     .PageFaculty__detailsScience-item:nth-child(2) {padding: 20px 0; text-align: center; width: 468px;}
 }
+
+@media screen and (max-width: 768px) {
+    .PageFaculty__detailsnav-infoTitle {font-size: 20px;}
+    .PageFaculty__info {width: 700px; justify-content: space-around; gap: 20px;}
+    .info__details-name h1 {font-size: 25px;}
+    .PageFaculty__detailsnav-info {width: 460px;}
+    .PageFaculty__detailsScience-item:nth-child(2) {padding: 20px 0; text-align: center; width: 311px;}
+}

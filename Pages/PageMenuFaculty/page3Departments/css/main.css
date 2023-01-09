@@ -197,3 +197,15 @@
     .detailsDepartments-depName {padding: 0;}
     .PageFaculty__detailsDepartments {width: 541px;}
 }
+
+@media screen and (max-width: 768px) {
+    .PageFaculty__detailsnav-infoTitle {font-size: 20px;}
+    .PageFaculty__info {width: 700px; justify-content: space-around; gap: 20px;}
+    .info__details-name h1 {font-size: 25px;}
+    .PageFaculty__detailsnav-info {width: 460px;}
+    .PageFaculty__detailsDepartments-item { width: 370px;}
+    .PageFaculty__detailsDepartments {width: 370px;}
+    .detailsDepartments-persName h1 {font-size: 15px;}
+    .detailsDepartments-depName h1 {font-size: 20px;}
+    .detailsDepartments-depName span {font-size: 12px;}
+}
