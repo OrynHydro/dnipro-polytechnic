@@ -1,3 +1,8 @@
+.container {
+    width: 1220px;
+    margin: 0 auto; 
+}
+
 .specialties {
     padding: 56px 0px 107px;
 }
@@ -41,11 +46,6 @@
     height: 20px;
 }
 
-.specialties__search-icon:hover img{
-    width: 20px;
-    height: 20px;
-}
-
 .specialties__body {
     display: flex;
     justify-content: center;
@@ -65,26 +65,18 @@
 }
 
 .specialties__body-number {
-<<<<<<< HEAD
     color: var(--color-blue035);
-=======
     color: #035F8E;
-
->>>>>>> 38389dcc95fb50bc2fe00b9c3b7cff0bdd691cd7
     font-weight: 900;
     font-size: 30px;
     line-height: 40px;
 }
 
 .specialties__body-title {
-<<<<<<< HEAD
     font-family: 'Neris';
     font-style: normal;
     color: var(--color-blue035);
-=======
     color: #035F8E;
-
->>>>>>> 38389dcc95fb50bc2fe00b9c3b7cff0bdd691cd7
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
@@ -119,4 +111,65 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 820px;
+    }
+
+    .specialties {
+        padding: 78px 0px 110px;
+    }
+    
+    .specialties__search-icon {
+        display: flex;
+        align-items: center;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .specialties__body {
+        gap: 40px;
+    }
+    
+    .specialties__body-block {
+        padding: 25px 33px 23px;
+    }
+    
+    .specialties__body-number {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .specialties__body-item:nth-child(1) {
+        margin-top: 0px;
+    }
+    
+    .specialties__body-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 30px auto 22px;
+    }
+    
+    .specialties__body-item {
+        padding-bottom: 24px;
+    }
+    
+    .specialties__body-loans {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 678px;
+    }
+
+    /* .specialties__body-block {
+        width: 678px;
+    } */
 }

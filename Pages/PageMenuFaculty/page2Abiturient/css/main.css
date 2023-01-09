@@ -160,3 +160,12 @@
     .PageFaculty__detailsnav-info {width: 640px;}
     .PageFaculty__detailsDegrees { gap: 10px; }
 }
+
+@media screen and (max-width: 768px) {
+    .PageFaculty__detailsnav-info h1 {font-size: 20px;}
+    .PageFaculty__info {width: 700px; justify-content: space-around; gap: 20px;}
+    .info__details-name h1 {font-size: 25px;}
+    .PageFaculty__detailsnav-info {width: 460px;flex-direction: column; height: 400px;}
+    .PageFaculty__detailsDegrees {flex-direction: column;}
+    .PageFaculty__detailsDegrees-item {width: 390px;}
+}

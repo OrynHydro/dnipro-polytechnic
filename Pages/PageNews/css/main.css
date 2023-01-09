@@ -292,6 +292,7 @@
 
 
 @media screen and (max-width: 1024px) {
+    .wrap {width: 1024px; }
     .newsdetails {gap: 44px;}
     .details_imgsett1 {width: 623px; height: 269px;}
     .details_imgsett2 {width: 623px;}
@@ -303,6 +304,7 @@
 }
 
 @media screen and (max-width: 768px) { 
+    .wrap {width: 768px; }
     .newsdetails {flex-direction: column; margin-left: 64px; gap: 0px;}
     .details__navpart{display: none;}
     .dayBlock__detailsNav {display: flex;}

@@ -20,23 +20,32 @@
     font-family: 'Neris';
 }
 
+.pageMedals__titleTop {
+    text-align: center;
+    margin-top: 56px;
+    font-size: 25px;
+    line-height: 33.5px;
+    color: var(--color-black1a);
+    font-family: 'Neris';
+    display: none;
+}
+
 .medals__header p {
-    padding: 33px 107px 44px 104px;
     color: #233739;
     font-weight: 400;
     line-height: 25.5px;
     font-size: 15px;
     text-align: center;
+    display: none;
 }
 
 /*Gold and Iron medals*/
 
 .pageMedals__medals {
-    margin: 0 auto;
-    width: 793px;
+    /* width: 793px; */
     margin-top: 77px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pageMedals__medals-item {
@@ -151,7 +160,7 @@
 
 .pageMedals__descriptionmedal {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 35px;
 }
 
@@ -332,6 +341,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .wrap {width: 1024px; }
     .pageMedals__honoryranks-item:nth-child(1), .pageMedals__honoryranks-item:nth-child(2) {margin-top: 0px;}
     .pageMedals__honoryranks-item {margin-top: 10px;}
     .pageMedals__distinctions-item p {padding: 13px 50px 38px 50px;}
@@ -340,5 +350,33 @@
     .pageMedals__honorydescription p {padding: 5px 10px 26px 10px;}
     .pageMedals__honorydescription img {margin-top: 10px;}
     .descriptionHonory__ul li {width: 894px;padding: 15px 150px 0px 23px; }
+    .pageMedals__medals {justify-content: space-around;}
 }
+
+@media screen and (max-width: 768px) {
+    .wrap {width: 768px;}
+    .pageMedals__medals {justify-content:space-around;margin-right: 100px;}
+    .pageMedals__medals span {font-size: 12px;}
+    .descriptiongoldmedal__logo span {font-size: 14px; text-align: center;}
+    .pageMedals__honoryranks-item {gap: 10px;}
+    .pageMedals__honoryranks-item:nth-child(2) {margin-top: 10px;}
+    .pageMedals__descriptionTitle {margin-right: 150px;}
+    .pageMedals__distinctions {flex-direction: column; align-items: center; margin-right: 150px; gap: 10px;}
+    .descriptionmedal__ul {padding-right: 60px;}
+    .pageMedals__description-detalinfo {padding-right: 130px;padding-left: 10px;}
+    .pageMedals__description-detalinfo2 {padding-right: 140px; padding-left: 10px;}
+    .descriptiongrey__logo span{ font-size: 12px;}
+    .descriptiongrey__logo {margin-right: 100px;}
+    .pageMedals__descriptionmedal p {padding-right: 0;padding-left: 10px;}
+    .pageMedals__descriptionHonory-detalinfo {padding-right: 140px; padding-left: 10px;}
+    .pageMedals__honoryranks {flex-direction: column; margin-right: 150px;}
+    .pageMedals__honorytitle {margin-right: 150px;}
+    .pageMedals__honorydescription p {padding: 5px 10px 26px 10px;}
+    .pageMedals__honorydescription img {margin-top: 10px;}
+    .descriptionHonory__ul li {width: 894px;padding: 15px 300px 0px 23px; }
+    .descriptionGift__text {padding-right: 130px;}
+    .pageMedals__title {display: none;}
+    .pageMedals__titleTop {display: block;}
+}
+
 

@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 .footer__bottom-container {
-    border-top:1px solid var(--color-grayD2);
+    border-top:1px solid var(--color-lightGray);
     justify-content: space-around;
     margin-bottom: 54px;
 }
@@ -37,11 +37,11 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #333333;
+    color: var(--color-gray);
     text-decoration: none;
 }
 .footer__top-menu-item:hover {
-    color: #002fa5;
+    color: var(--color-blue);
 }
 
 .footer__bottom {
@@ -56,10 +56,10 @@
     gap: 5px;  
 }
 .contactsBlock a {
-    color: #333333;
+    color: var(--color-gray);
 }
 .contactsBlock a:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue);
 }
 .footer__logo {
     display: flex;
@@ -71,11 +71,11 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #093864;
+    color: var(--color-blue);
     width: 65px;
 }
 .footer__siteMap:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue);
     text-decoration: underline;
     transition-duration: .1s;
     transition-delay: .05s;
@@ -84,7 +84,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #363636;
+    color: var(--color-gray);
 }
 .footer__Block-title,
 .footer__Block-title2 {
@@ -92,7 +92,7 @@
     font-weight: 900;
     font-size: 15px;
     line-height: 20px;
-    color: #363636;
+    color: var(--color-gray);
     margin-bottom: 36px;
 }
 .footer__Block-title2 {
@@ -107,13 +107,13 @@
     color: #606060;
 }
 .footer__btn {
-    border: 1px solid #333333;
+    border: 1px solid var(--color-gray);
     width: 199px;
     padding: 14px 36px;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #333333;
+    color: var(--color-gray);
     cursor: pointer;
 }
 .footer__btn:hover {
@@ -132,13 +132,13 @@
 }
 .social__item i {
     font-size: 24px;
-    color: #E4E4E4;
+    color: var(--color-lightGray);
 }
 .instagram i:hover {
-    color: #08446D;
+    color: var(--color-lightGray);
 }
 .facebook i:hover {
-    color: #08446D;
+    color: var(--color-lightGray);
 }
 .youtube i:hover {
     color: red;
@@ -151,7 +151,7 @@
 }
 
 .footer__email2 {
-    border: 1px solid #B5B5C1;
+    border: 1px solid var(--color-lightGray);
     border-radius: 28px;
     padding: 8px 20px 8px 17px;
 }
@@ -162,7 +162,7 @@
     justify-content: center;
     width: 23px;
     height: 23px;
-    background: #006897;
+    background: var(--color-blue);
     border: transparent;
     border-radius: 60px;
     color: #fff;
@@ -196,21 +196,21 @@
     background-color: #fff;
 }
 .footer768-column:first-child {
-    border-right: 1px solid #EDEDED;
+    border-right: 1px solid var(--color-lightGray);
 }   
 .footer768-block:last-child {
     margin-bottom: 40px;
-    border-top: 1px solid #EDEDED;
+    border-top: 1px solid var(--color-lightGray);
 }
 
 .foundOnMap {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #093864;
+    color: var(--color-blue);
 }
 .foundOnMap:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue);
     text-decoration: underline;
     transition-duration: .1s;
     transition-delay: .05s;
@@ -332,7 +332,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 19px;
-        color: #606060;
+        color: var(--color-gray);
     }
     .footer__phoneNumber {
         font-size: 13px;
@@ -382,7 +382,7 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 20px;
-        color: #363636;
+        color: var(--color-gray);
         text-align: center;
     }
     .footer__email2 {
@@ -448,7 +448,7 @@
         font-weight: 400;
         font-size: 13px;
         line-height: 17px;
-        color: #606060;
+        color: var(--color-gray);
     }
     .footer__phoneNumber {
         font-size: 13px;
@@ -499,7 +499,7 @@
         font-weight: 400;
         font-size: 13px;
         line-height: 17px;
-        color: #363636;
+        color: var(--color-gray);
         text-align: center;
     }
     .footer__email2 {
