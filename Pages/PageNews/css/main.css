@@ -233,11 +233,19 @@
 .dayBlock__detailsNav {
     display: flex;
     flex-direction: column;
-    height: 624px;
+    height: 50px;
     width: 623px;
     align-items: center;
     margin-bottom: 99px;
     display: none;
+}
+
+.dayBlock__detailsNav.heightNew {
+    height: 624px;
+}
+
+.dayBlock__detailsNav.heightNew .NavBottom-title {
+    background-image: none;
 }
 
 .NavBottom-title {
