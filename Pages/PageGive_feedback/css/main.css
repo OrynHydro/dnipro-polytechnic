@@ -8,7 +8,7 @@
     margin-bottom: 69px;
 }
 .give_feedback__title {
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 
     margin-bottom: 43px;
     text-align: center;
@@ -45,7 +45,7 @@
     padding: 69px 0px 48px;
 }
 .give_feedback__form-title {
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 
     text-align: center;
 
@@ -74,9 +74,9 @@
 }
 
 .give_feedback__form-body input[type="text"] {
-    color: #8F8F8F;
+    color: var(--color-lightGray);
     background: #FFFFFF;
-    border: 1px solid #C0C0C0;
+    border: 1px solid var(--color-lightGray);
 
     width: 325px;
     height: 62px;
@@ -90,7 +90,7 @@
 }
 
 .give_feedback__form-body input[type="text"]:focus {
-    border: 2px solid var(--color-blue004);
+    border: 2px solid var(--color-blue);
 
     outline: none;
     border-radius: 6px;
@@ -101,9 +101,9 @@ input:focus::-webkit-input-placeholder {
 }
 
 .give_feedback__form-body textarea {
-    color: #8F8F8F;
+    color: var(--color-lightGray);
     background: #FFFFFF;
-    border: 1px solid #C0C0C0;
+    border: 1px solid var(--color-lightGray);
 
     width: 670px;
     height: 146px;
@@ -119,7 +119,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 .give_feedback__form-body textarea:focus {
-    border: 2px solid var(--color-blue004);
+    border: 2px solid var(--color-blue);
 
     outline: none;
     border-radius: 6px;
@@ -136,7 +136,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .give_feedback__form-contacts input {
-    color: #8F8F8F;
+    color: var(--color-lightGray);
     background: #FFFFFF;
 
     width: 325px;
@@ -147,19 +147,19 @@ textarea:focus::-webkit-input-placeholder {
     font-size: 15px;
     line-height: 20px;
 
-    border: 1px solid #C0C0C0;
+    border: 1px solid var(--color-lightGray);
     border-radius: 5px;
 }
 
 .give_feedback__form-contacts input:focus {
-    border: 2px solid var(--color-blue004);
+    border: 2px solid var(--color-blue);
 
     outline: none;
     border-radius: 6px;
 }
 
 .give_feedback__form-body hr {
-    background: #E2E2E2;
+    background: var(--color-lightGray);
 
     width: 100%;
     height: 1px;
@@ -169,7 +169,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .give_feedback-btn {
     color: #FFFFFF;
-    background: var(--color-blue004);
+    background: var(--color-blue);
     border: 1px solid transparent;
 
     padding: 21px 84px;
@@ -186,9 +186,9 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .give_feedback-btn:hover {
-    color: var(--color-blue004);
+    color: var(--color-blue);
     background: #FFFFFF;
-    border: 1px solid var(--color-blue004);
+    border: 1px solid var(--color-blue);
 
     cursor: pointer;
 }

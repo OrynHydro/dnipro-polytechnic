@@ -6,7 +6,7 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     text-align: center;
 }
 .nextMeeting-block {
@@ -32,7 +32,7 @@ h2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 169.99%;
-    color: #233739;
+    color: var(--color-gray);
 }
 .dearFriends-block {
     margin-bottom: 71px;
@@ -42,7 +42,7 @@ h2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 169.99%;
-    color: #233739;
+    color: var(--color-gray);
     display: inline-block;
     width: 1078px;
     margin-left: 50px;
@@ -88,7 +88,7 @@ h2 {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
-    border: 1px solid #EDECEC;
+    border: 1px solid var(--color-lightGray);
     width: 190px;
     height: 61px;
     font-weight: 400;
@@ -111,7 +111,7 @@ h2 {
 }
 
 .button-block a:hover { 
-    background: var(--color-blue005);
+    background: var(--color-blue);
     color: #fff;
     transition-duration: .1s;
     transition-delay: .05s;
@@ -152,7 +152,7 @@ h2 {
 }
 .photo a:hover {
     background: #FFFFFF;
-    color: #0E0E0E;
+    color: var(--color-lightBlack);
     transition-duration: .1s;
     transition-delay: .05s;
 }
@@ -167,7 +167,7 @@ h2 {
 
 }
 .overlay {
-    background: linear-gradient(180deg, #093864 0%, var(--color-blue005) 100%);
+    background: linear-gradient(180deg, var(--color-blue) 0%, var(--color-blue) 100%);
     opacity: 0.57;
     width: 556px;
     height: 283px;

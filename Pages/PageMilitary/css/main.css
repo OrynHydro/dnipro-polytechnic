@@ -13,10 +13,10 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 }
 .main__eighthPage-blueBlock {
-    background: var(--color-blue035);
+    background: var(--color-blue);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
     margin-top: 43px;
     padding: 40px 60px;
@@ -47,7 +47,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    color: #242424;
+    color: var(--color-lightBlack);
 }   
 .main__eightPage-content {
     display: flex;
@@ -59,7 +59,7 @@
     flex-direction: column;
     padding: 32px 48px;
     background: #FFFFFF;
-    border: 1px solid #DFDFDF;
+    border: 1px solid var(--color-lightGray);
 }
 .main__eighthPage-blockTitle {
     display: inline-block;
@@ -68,7 +68,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    color: #242424;
+    color: var(--color-lightBlack);
     margin-bottom: 42px;
 }
 .main__eighthPage-btnBlock.specialBlock {
@@ -83,18 +83,18 @@
     line-height: 150.5%;
 }
 .main__eighthPage-btn1 {
-    background: var(--color-blue035);     
+    background: var(--color-blue);     
     color: #fff;
 }
 .main__eighthPage-btn1:hover {
-    background: #E3E3E3;
+    background: var(--color-lightGray);
     color: #000000;
     transition-duration: .1s;
     transition-delay: .05s;
 }
 .main__eighthPage-btn2 {
     margin-left: 19px;
-    border: 1px solid var(--color-blue035);
+    border: 1px solid var(--color-blue);
     color: #000000;
 }
 .main__eighthPage-btn2:hover {
@@ -119,14 +119,14 @@
     width: 1220px;
     display: flex;
     justify-content: space-between;
-    background: var(--color-blue035);
-    border: 1px solid var(--color-blue035);
+    background: var(--color-blue);
+    border: 1px solid var(--color-blue);
 }
 .leftSide {
     display: flex;
 }
 .leftSideBtn {
-    background: #1F6D95;
+    background: var(--color-blue);
     width: 125px;
     height: 61px;
 }
@@ -138,7 +138,7 @@
     top: 2px;
 }
 .leftSideBtn:hover {
-    background: #035782;
+    background: var(--color-blue);
 }
 .leftSideBtn:hover path {
     fill: #497D98;
@@ -180,7 +180,7 @@ label:last-child {
 .slide1 {
     width: 1220px;
     height: 581px;
-    background: #566A89;
+    background: var(--color-lightGray);
     color: #fff;
     font-size: 30px;
     line-height: 150.5%;
@@ -193,7 +193,7 @@ label:last-child {
     width: 1220px;
     height: 577px;
     object-fit: contain;
-    border: 1px solid var(--color-blue035);
+    border: 1px solid var(--color-blue);
 }
 .mySlides h1 {
     text-align: center;
@@ -211,13 +211,13 @@ label:last-child {
 .mySlides span {
     position: absolute;
     right: 690px;
-    color: #566A89;
+    color: var(--color-lightGray);
     font-weight: 900;
     font-size: 30px;
 }
 
 .rightSide button:hover path {
-    fill: #298dbf;
+    fill: var(--color-blue);
 }
 
 @media screen and (max-width: 1024px) {

@@ -2,14 +2,14 @@
     display: block;
     height: 1013px;
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
 }
 
 .instituteBlock-topitem {
     font-weight: 700;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     text-align: center;
     margin-top: 55px;
 }
@@ -18,7 +18,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     text-align: center;
     margin-top: 55px;
     display: none;
@@ -50,7 +50,7 @@
     width: 392px;
     height: 78px;
     background: #fff;
-    border: 1px solid #d9d9d9;
+    border: 1px solid var(--color-lightGray);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@
     height: 193px;
     width: 392px;
     background-color: #fff;
-    border: 1px solid #d9d9d9;
+    border: 1px solid var(--color-lightGray);
     border-top: none;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
@@ -106,7 +106,7 @@
 }
 
 .table__navigationBlock-item:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
     font-weight: 700;
 }
 

@@ -1,6 +1,6 @@
 .PageFaculty {
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
     display: block;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .PageFaculty__info-logo {
-    background: var(--color-grayE1);
+    background: var(--color-lightGray);
     width: 252px;
     height: 185px;
 }
@@ -36,13 +36,13 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 }
 
 .info__details-name h1 {
     font-size: 30px;
     line-height: 40.2px;
-    color: var(--color-gray37);
+    color: var(--color-gray);
 }
 
 .info__details-contacts {
@@ -51,7 +51,7 @@
     margin-top: 54px;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-weight: 300;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .info__details-contacts a {
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-weight: 700;
     font-size: 16px;
     line-height: 21.44px;
@@ -73,7 +73,7 @@
 }
 
 .faculty__social a {
-    color: #a6a6a6;
+    color: var(--color-lightGray);
     font-size: 21px;    
 }
 
@@ -82,7 +82,7 @@
 }
 
 .faculty__social a:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
     transition-duration: .1s;
 }
 
@@ -103,7 +103,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 21.44px;
-    border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid var(--color-lightGray);
     width: 301px;
     padding: 25px 0 24px 37px;
 }
@@ -114,7 +114,7 @@
 
 .PageFaculty__nav-item:hover {
     color: #fff;
-    background-color: var(--color-blue005);
+    background-color: var(--color-blue);
 }
 
 .PageFaculty__detailsnav-info {
@@ -134,13 +134,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 }
 
 .PageFaculty__detailsnav-name h1 {
     line-height: 40.2px;
     font-size: 30px;
-    color: var(--color-gray37);
+    color: var(--color-gray);
 }
 
 .PageFaculty__detailsnav-contacts {
@@ -151,13 +151,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 }
 
 .contacts__border {
     width: 477px;
     height: 61px;
-    border: 1px solid #cbcbcb;
+    border: 1px solid var(--color-lightGray);
     display: flex;
     padding: 20px 145px 21px 20px;
     justify-content: space-between;
@@ -177,24 +177,24 @@
 
 .contacts__border-item .fa-solid {
     font-size: 19px;
-    color: #ddd;
+    color: var(--color-lightGray);
 }
 
 .contacts__border-item .fa-solid:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
 }
 
 .PageFaculty__detailsnav-description {
     font-weight: 400;
     font-size: 14px;
     line-height: 23.8px;
-    color: #233739;
+    color: var(--color-gray);
     padding: 30px 80px 0 0;
 }
 
 .details__photo p {
     display: inline-block;
-    background-color: #ededed;
+    background-color: var(--color-lightGray);
     width: 290px;
     font-size: 16px;
     font-weight: 400;

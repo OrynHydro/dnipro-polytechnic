@@ -18,7 +18,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     margin-bottom: 5px;
 }
 .main__thirdPage-contentBlock {
@@ -42,7 +42,7 @@
     color: #000;
 }
 .main__thirdPage-content a:hover {
-    color: rgb(0, 0, 255);
+    color: var(--color-blue);
 }
 .main__thirdPage-content {
     width: 271px;
@@ -54,7 +54,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #212121;
+    color: var(--color-gray);
 }
 .main__thirdPage-name {
     margin-top: 9px;
@@ -72,7 +72,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 150%;
-    color: var(--color-gray8a);
+    color: var(--color-gray);
 }
 .main__thirdPage-contacts {
     display: flex;

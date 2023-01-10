@@ -1,37 +1,37 @@
 .pageMedals {
     display: block;
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
     font-family: 'Helvetica';
 }
 
 .medals__header {
     margin-top: 43px;
     background: #FFFFFF;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: var(--color-gray) 0px 8px 24px;
 }
 
 .pageMedals__title {
     text-align: center;
-    margin-top: 56px;
+    padding-top: 56px;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-family: 'Neris';
 }
 
 .pageMedals__titleTop {
     text-align: center;
-    margin-top: 56px;
+    padding-top: 56px;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-family: 'Neris';
     display: none;
 }
 
 .medals__header p {
-    color: #233739;
+    color: var(--color-gray);
     font-weight: 400;
     line-height: 25.5px;
     font-size: 15px;
@@ -42,7 +42,6 @@
 /*Gold and Iron medals*/
 
 .pageMedals__medals {
-    /* width: 793px; */
     margin-top: 77px;
     display: flex;
     justify-content: space-around;
@@ -55,7 +54,7 @@
 }
 
 .pageMedals__medals-item span {
-    color: #233739;
+    color: var(--color-gray);
     font-size: 16px;
     line-height: 18.4px;
     font-weight: 700;
@@ -75,7 +74,7 @@
     text-align: center;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-family: 'Neris';
 }
 
@@ -99,7 +98,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16.1px;
-    color: #233739;
+    color: var(--color-gray);
     padding: 20px 72px 26px 60px;
 }
 
@@ -119,7 +118,7 @@
     text-align: center;
     font-size: 25px;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-family: 'Neris';
 }
 
@@ -141,7 +140,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.4px;
-    color: #233739;
+    color: var(--color-gray);
     padding: 13px 100px 38px 100px;
 }
 
@@ -154,7 +153,7 @@
 
 
 .pageMedals__description {
-    color: #233739;
+    color: var(--color-gray);
     margin-top: 35px;
 }
 
@@ -248,7 +247,7 @@
 }
 
 .pageMedals hr {
-    border: 1px solid var(--color-grayE1);
+    border: 1px solid var(--color-lightGray);
     margin-top: 30px;
 }
 

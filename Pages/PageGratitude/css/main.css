@@ -1,6 +1,6 @@
 .PageGratitude {
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
     display: block;
 }
 
@@ -8,7 +8,7 @@
     font-size: 25px;
     text-align: center;
     line-height: 33.5px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     margin: 56px 0 43px 0;
 }
 
@@ -24,7 +24,7 @@
     font-size: 16px;
     line-height: 27.2px;
     text-align: center;
-    color: #233739;
+    color: var(--color-gray);
     padding: 93px 136px 79px 134px;
 }
 

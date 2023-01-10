@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: #1A1A1A;
+    color: var(--color-lightBlack);
 }
 .main__fourthPage-searchBlock {
     margin-top: 43px;
@@ -22,7 +22,7 @@
     align-items: center;
 }   
 .main__fourthPage-searchField {
-    border: 1px solid #A4A4A4;
+    border: 1px solid var(--color-lightGray);
     padding: 14px 264px 14px 22px;
 }
 .main__fourthPage-searchBlock img {
@@ -57,7 +57,7 @@
     border: none;
 }
 .main__fourthPage-blockItem:hover path {
-    fill: var(--color-blue005);
+    fill: var(--color-blue);
     transition-duration: .1s;
     transition-delay: .05s;
 }
@@ -78,7 +78,7 @@
     font-weight: 900;
     font-size: 18px;
     line-height: 145%;
-    color: var(--color-blue005);
+    color: var(--color-blue);
     position: relative;
     left: 146px;
 }
