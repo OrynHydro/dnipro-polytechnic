@@ -49,11 +49,10 @@
     line-height: 27px;
     color: #242424;
 }   
-.main__eighthPage-row {
+.main__eightPage-content {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
-    padding-top: 21px;
 }
 .main__eighthPage-block {
     display: flex;
@@ -106,10 +105,12 @@
 }
 .main__eighthPage-presentationBlock {
     margin-top: 104px;
+    position: relative;
+    right: 5px; 
 }
 .main__eighthPage-presentationBlock-utilities {
     position: relative;
-    top: -82px;
+    right: 5px;
     display: flex;
     justify-content: center;
 }
@@ -148,7 +149,7 @@
     margin-top: 26px;
     transform: translateX(-50%);
 }
-input {
+.main__eighthPage input {
     width: 210px;
 }
 label {
@@ -217,4 +218,179 @@ label:last-child {
 
 .rightSide button:hover path {
     fill: #298dbf;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        width: 925px;
+    }
+    .main__eighthPage-blueBlock {
+        padding: 30px;
+    }
+    .main__eighthPage-blueBlock-content {
+        width: 840px;
+    }   
+    .main__eighthPage-blueBlock-line {
+        position: relative;
+        right: 120px;
+    }
+    .main__eightPage-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .main__eighthPage-block {
+        padding: 50px 70px;
+    }
+    .main__eighthPage-btnBlock.specialBlock {
+        top: 0px;
+    }
+    .slide1 {
+        width: 100%;
+        height: 500px;
+    }
+    .mySlide {
+        width: 100%;
+        height: 100%;
+    }
+    .mySlides img {
+        width: 100%;
+        height: 496px;
+    }
+    .mySlides h1 {
+        top: 223px;
+    }
+    .mySlides p {
+        top: 223px;
+    }
+    .leftSide {
+        position: relative;
+        right: 60px;
+    }
+    .rightSide {
+        position: relative;
+        left: 30px;
+    }
+    .main__eighthPage input {
+        position: relative;
+        left: 25px;
+    }
+    label {
+        position: relative;
+        left: 25px;
+    }
+    #demo {
+        left: 0px;
+    }
+    .mySlides span {
+        right: 440px;
+    }
+    .rightSide button:last-child {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 678px;
+    }
+    .main__eighthPage-header {
+        margin-right: 100px;
+    }
+    .main__eighthPage-blueBlock {
+        position: relative;
+        left: 25px;
+        padding: 20px;
+        width: 678px;
+    }
+    .main__eighthPage-blueBlock-title {
+        display: inline-block;
+        width: 100%;
+        margin-right: 150px;
+        font-size: 18px;
+    }
+    .main__eighthPage-blueBlock-content {
+        width: 640px;
+        font-size: 13px;
+        line-height: 17px;
+        padding: 20px;
+    }   
+    .main__eighthPage-blueBlock-line {
+        position: relative;
+        right: 225px;
+        margin-bottom: 15px;
+    }
+    .main__eighthPage-intermediateTitle {
+        margin-right: 100px;
+    }
+    .main__eightPage-content {  
+        gap: 30px;
+    }
+    .main__eighthPage-block {
+        padding: 20px 15px;
+        position: relative;
+        left: 25px;
+    }
+    .main__eighthPage-btnBlock {
+        display: flex;
+        justify-content: center;
+    }
+    .main__eighthPage-block button {
+        width: 100px;
+        height: 42px;
+    }
+    .main__eighthPage-presentationBlock {
+        margin-left: 35px;
+    }
+    .slide1 {
+        width: 678px;
+        height: 450px;
+    }
+    .mySlide {
+        width: 678px;
+        height: 450px;
+    }
+    .mySlides img {
+        width: 678px;
+        height: 446px;
+    }
+    .main__eighthPage-presentationBlock-utilities {
+        width: 678px;
+        left: 30px;
+    }
+    .mySlides h1 {
+        top: 200px;
+    }
+    .mySlides p {
+        top: 200px;
+    }
+    .leftSide {
+        position: relative;
+        right: 60px;
+    }
+    .leftSideBtn {
+        width: 80px;
+        height: 61px;
+    }
+    .rightSide {
+        position: relative;
+        left: 30px;
+    }
+    .main__eighthPage input {
+        position: relative;
+        left: 25px;
+    }
+    label {
+        position: relative;
+        left: 25px;
+    }
+    #demo {
+        left: 0px;
+    }
+    .mySlides span {
+        right: 440px;
+    }
+    .rightSide button:last-child {
+        margin-left: 32px;
+    }
 }
