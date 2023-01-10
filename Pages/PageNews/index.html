@@ -360,6 +360,14 @@
 						</div>
 						<div class="dayBlock__detailsNav">
 							<h1 class="NavBottom-title">Другие новости</h1>
+							<script>
+								$(document).ready(function(){
+									$('.NavBottom-title').click(function() {
+										$('.NavBottom').toggleClass('shown');
+										$('.dayBlock__detailsNav').toggleClass('heightNew');
+									});
+								});
+							</script>
 							<div class="NavBottom">
 								<div class="NavBottom-item">
 									<img src="/assets/images/img/PageNews/1leftpart.svg" alt="navbottom1">

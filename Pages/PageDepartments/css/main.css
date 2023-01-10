@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: #1A1A1A;
+    color: var(--color-lightBlack);
 }
 .main__fourthPage-searchBlock {
     margin-top: 43px;
@@ -22,7 +22,7 @@
     align-items: center;
 }   
 .main__fourthPage-searchField {
-    border: 1px solid #A4A4A4;
+    border: 1px solid var(--color-lightGray);
     padding: 14px 264px 14px 22px;
 }
 .main__fourthPage-searchBlock img {
@@ -31,6 +31,11 @@
     position: relative;
     left: -32px;
     top: 2px;
+}
+.main__fourthPage-contentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
 }
 .main__fourthPage-block {
     display: flex;
@@ -52,7 +57,7 @@
     border: none;
 }
 .main__fourthPage-blockItem:hover path {
-    fill: var(--color-blue005);
+    fill: var(--color-blue);
     transition-duration: .1s;
     transition-delay: .05s;
 }
@@ -73,7 +78,7 @@
     font-weight: 900;
     font-size: 18px;
     line-height: 145%;
-    color: var(--color-blue005);
+    color: var(--color-blue);
     position: relative;
     left: 146px;
 }
@@ -102,19 +107,19 @@
 
 @media screen and (max-width: 1024px) {
     .main__fourthPage-blockItem {
-        width: 295px;
+        width: 280px;
     }
     .wrap {
         width: 925px;
     }
     .main__fourthPage-block {
         position: relative;
-        right: 25px;
+        right: 0px;
     }
     .main__fourthPage-description {
         font-size: 14px;
         line-height: 145%;
-        width: 180px;
+        width: 170px;
         left: 110px;
     }
     .main__fourthPage-blockItem svg {
@@ -123,9 +128,9 @@
     .main__fourthPage-title {
         left: 110px;
         font-size: 16px;
-        line-height: 145%;
+        line-height: 145%;  
     }
-    .main__fourthPage-column {
+    .main__fourthPage-content {
         gap: 21px;
     }
 }
@@ -139,7 +144,7 @@
     }
     .main__fourthPage-block {
         position: relative;
-        right: -10px;
+        right: -15px;
     }
     .main__fourthPage-description {
         font-size: 12px;
@@ -155,7 +160,7 @@
         font-size: 13px;
         line-height: 125%;
     }
-    .main__fourthPage-column {
+    .main__fourthPage-content {
         gap: 15px;
     }
     .main__fourthPage-header {

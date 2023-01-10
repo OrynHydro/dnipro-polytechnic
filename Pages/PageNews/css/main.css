@@ -1,7 +1,8 @@
 .dayBlock {
     display: block;
     width: 100%;
-    background: #FBFBFB;
+    background: var(--color-darkWhite);
+
 }
 
 .newsdetails {
@@ -64,8 +65,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background:var(--color-blueRgba);
-    border: 1px solid var(--color-blue025);
+    background:var(--color-blue);
+    border: 1px solid var(--color-blue);
 }
 
 .overlay2 {
@@ -75,8 +76,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background:var(--color-blueRgba);
-    border: 1px solid var(--color-blue025);
+    background:var(--color-blue);
+    border: 1px solid var(--color-blue);
 }
 
 .overlay3 {
@@ -86,8 +87,8 @@
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background:var(--color-blueRgba);
-    border: 1px solid var(--color-blue025);
+    background:var(--color-blue);
+    border: 1px solid var(--color-blue);
 }
 
 .details__navpart-item a {
@@ -102,12 +103,12 @@
 }
 
 .details__navpart-item a:hover {
-    background:var(--color-blueRgba);
+    background:var(--color-blue);
     color: #fbfbfb;
 }
 
 .details__navpart-item h1:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
 }
 
 .details__navpart-item p {
@@ -115,7 +116,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15.6px;
-    color: var(--color-gray37);
+    color: var(--color-gray);
 }
 
 .detailsnav__button {
@@ -165,6 +166,7 @@
 
 .details_imgsett3 {
     margin-top: 49px;
+
 }
 
 /*HEADER INFO PART*/
@@ -179,13 +181,13 @@
     font-size: 25px;
     line-height: 33.5px;
     width: 722px;
-    color:var(--color-black1a);
+    color:var(--color-lightBlack);
     margin-bottom: 13px;
 }
 
 .header__infopart span {
     margin-left: 119px;
-    color: #a3a3a3;
+    color: var(--color-lightGray);
     font-weight: 400;
     font-size: 13px;
     line-height: 17.42px;
@@ -194,13 +196,13 @@
 /*Nav bottom adaptation*/
 
 #overlay {
-    position: absolute;
+    position:absolute;
     width: 251px;
     height: 146px;
     opacity: 0;
     transition: .5s ease;
-    background:var(--color-blueRgba);
-    border: 1px solid var(--color-blue025);
+    background:var(--color-blue);
+    border: 1px solid var(--color-blue);
 }
 
 .navButton {
@@ -231,20 +233,34 @@
 .dayBlock__detailsNav {
     display: flex;
     flex-direction: column;
-    height: 624px;
+    height: 50px;
     width: 623px;
     align-items: center;
     margin-bottom: 99px;
     display: none;
 }
 
+.dayBlock__detailsNav.heightNew {
+    height: 624px;
+}
+
+.dayBlock__detailsNav.heightNew .NavBottom-title {
+    background-image: none;
+}
+
 .NavBottom-title {
     text-align: center;
+    padding: 0 30px 0 30px;
     font-size: 18px;
     line-height: 27.99px;
     color: #000;
     font-weight: 600;
     margin-top: 63px;
+    background-image: url(/assets/images/img/PageInstitutes/instituedetails.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 12px;
+    cursor: pointer;
 }
 
 .NavBottom {
@@ -255,6 +271,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 43px;
+    display: none;
+}
+
+.NavBottom.shown {
+    display: flex;
 }
 
 .NavBottom-item {
@@ -278,16 +299,16 @@
 }
 
 .navButton:hover {
-    background:var(--color-blueRgba);
-    color: #fbfbfb;
+    background:var(--color-blue);
+    color: var(--color-darkWhite);
 }
 
 .NavBottom-item:hover h1 {
-    color: var(--color-blue005);
+    color: var(--color-blue);
 }
 
 .NavBottom-item:hover p {
-    color: var(--color-blue005);
+    color: var(--color-blue);
 }
 
 

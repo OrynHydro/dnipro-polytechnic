@@ -6,7 +6,7 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     line-height: 34px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     text-align: center;
 }
 .nextMeeting-block {
@@ -32,7 +32,7 @@ h2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 169.99%;
-    color: #233739;
+    color: var(--color-gray);
 }
 .dearFriends-block {
     margin-bottom: 71px;
@@ -42,7 +42,7 @@ h2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 169.99%;
-    color: #233739;
+    color: var(--color-gray);
     display: inline-block;
     width: 1078px;
     margin-left: 50px;
@@ -88,7 +88,7 @@ h2 {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
-    border: 1px solid #EDECEC;
+    border: 1px solid var(--color-lightGray);
     width: 190px;
     height: 61px;
     font-weight: 400;
@@ -111,7 +111,7 @@ h2 {
 }
 
 .button-block a:hover { 
-    background: var(--color-blue005);
+    background: var(--color-blue);
     color: #fff;
     transition-duration: .1s;
     transition-delay: .05s;
@@ -127,18 +127,14 @@ h2 {
 
 .photos-block-main {
     display: flex;
+    flex-wrap: wrap;
+    gap: 41px;
     margin-bottom: 66px;
-}
-.column {
-    position: relative;
-    left: -20px;
-    display: flex;
-    flex-direction: column;
-    gap: 61px;
-    margin-left: 41px;
+    margin-left: 25px;
 }
 .photo {
     background-image: url('/assets/images/img/PageGraduates/backgroundImage.svg');
+    background-size: cover;
     width: 556px;
     height: 283px;
 }
@@ -156,7 +152,7 @@ h2 {
 }
 .photo a:hover {
     background: #FFFFFF;
-    color: #0E0E0E;
+    color: var(--color-lightBlack);
     transition-duration: .1s;
     transition-delay: .05s;
 }
@@ -171,11 +167,144 @@ h2 {
 
 }
 .overlay {
-    background: linear-gradient(180deg, #093864 0%, var(--color-blue005) 100%);
+    background: linear-gradient(180deg, var(--color-blue) 0%, var(--color-blue) 100%);
     opacity: 0.57;
     width: 556px;
     height: 283px;
     position: relative;
     bottom: 88px;
     z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        width: 925px;
+    }
+    .nextMeeting-block {
+        display: none;
+    }
+    .dearFriends-block {
+        margin-top: 40px;
+    }
+    .dearFriends-content {
+        width: 800px;   
+    }
+    .dearFriends-afterword {
+        left: 680px;
+        font-size: 14px;
+    }
+    .img1 {
+        padding: 33px 52px 33px 58px;
+    }
+    .img2 {
+        padding: 10px 28px 10px 32px;
+    }
+    .button-block a {
+        width: 154px;
+    }
+    .first-block a {
+        width: 130px;
+    }
+    .twoWhiteBlocks h4 {
+        position: absolute;
+        left: 28%;
+    }
+    .photo {
+        background-image: url('/assets/images/img/PageGraduates/backgroundImage.svg');
+        width: 428px;
+        height: 243px;
+    }
+    .photo a {
+        top: 118px;
+    }
+    .photo h1 {
+        top: 88px;
+    }
+    .overlay {
+        width: 428px;
+        height: 243px;
+    }
+    .photos-block-main {
+        gap: 30px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .wrap {
+        width: 678px;
+    }
+    .dearFriends-content {
+        width: 660px;   
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .title {
+        margin-right: 100px;
+    }
+    .dearFriends-block h2 {
+        margin-right: 100px;
+    }
+    .dearFriends-afterword {
+        width: 200px;
+        left: 510px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .twoWhiteBlocks {
+        width: 700px;
+        margin-left: 40px;
+    }
+    .twoWhiteBlocks h4 {
+        left: 0;
+    }
+    .img1 {
+        padding: 13px 22px 13px 28px;
+    }
+    .img2 {
+        padding: 3px 14px 3px 14px;
+    }
+    .button-block {
+        position: absolute;
+        left: 48%;
+    }
+    .button-block a {
+        width: 120px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .first-block a {
+        width: 100px;
+    }
+    .twoWhiteBlocks h4 {
+        position: absolute;
+        left: 28%;
+    }
+    .photos-block-main {
+        position: relative;
+        left: 75px;
+    }
+    .photos-block h2 {
+        margin-right: 100px;
+        gap: 20px;
+    }
+    .photo {
+        background-image: url('/assets/images/img/PageGraduates/backgroundImage.svg');
+        width: 300px;
+        height: 223px;
+    }
+    .photo a {
+        top: 98px;
+    }
+    .photo h1 {
+        top: 73px;
+    }
+    .overlay {
+        width: 300px;
+        height: 223px;
+    }
 }

@@ -1,6 +1,6 @@
 .PageFaculty {
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
     display: block;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .PageFaculty__info-logo {
-    background: var(--color-grayE1);
+    background: var(--color-lightGray);
     width: 252px;
     height: 185px;
 }
@@ -36,13 +36,13 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
 }
 
 .info__details-name h1 {
     font-size: 30px;
     line-height: 40.2px;
-    color: var(--color-gray37);
+    color: var(--color-gray);
 }
 
 .info__details-contacts {
@@ -51,7 +51,7 @@
     margin-top: 54px;
     font-size: 14px;
     line-height: 18.76px;
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-weight: 300;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .info__details-contacts a {
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     font-weight: 700;
     font-size: 16px;
     line-height: 21.44px;
@@ -73,7 +73,7 @@
 }
 
 .faculty__social a {
-    color: #a6a6a6;
+    color: var(--color-lightGray);
     font-size: 21px;    
 }
 
@@ -82,7 +82,7 @@
 }
 
 .faculty__social a:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
     transition-duration: .1s;
 }
 
@@ -103,7 +103,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 21.44px;
-    border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid var(--color-lightGray);
     width: 301px;
     padding: 25px 0 24px 37px;
 }
@@ -114,7 +114,7 @@
 
 .PageFaculty__nav-item:hover {
     color: #fff;
-    background-color: var(--color-blue005);
+    background-color: var(--color-blue);
 }
 
 .PageFaculty__detailsnav-info {
@@ -142,15 +142,15 @@
 
 .PageFaculty__detailsDegrees-item {
     width: 254px;
-    border: 2px solid #d9d9d9;
+    border: 2px solid var(--color-lightGray);
     text-align: center;
     padding: 24px 0px 25px 0px;
     color: #000;
 }
 
 .PageFaculty__detailsDegrees-item:hover {
-    background-color: var(--color-blue005);
-    border: 2px solid var(--color-blue005);
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-blue);
     color: #fff;
     transition-delay: .05s ;
     transition-duration: .1s;

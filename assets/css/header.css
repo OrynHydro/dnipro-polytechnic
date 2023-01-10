@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content:space-between;
     padding: 26px 0;
-    border-bottom: 1px solid var(--color-grayD2);
+    border-bottom: 1px solid var(--color-lightGray);
 }
 
 .search__box {
@@ -22,7 +22,7 @@ header {
 }
 
 .headertop__input {
-    border: 1px solid #c7c7c7;
+    border: 1px solid var(--color-lightGray);
     padding: 15px 221px 16px 23px;
     width: 378px;
     height: 46px;
@@ -41,13 +41,13 @@ header {
 
 .header__social-item {
     font-size: 20px;
-    color: #ccc;
+    color: var(--color-lightGray);
     padding-right: 17px;
     opacity: 1;
 }
 
 .header__social-item:hover { 
-    color: var(--color-blue005);
+    color: var(--color-blue);
 }
 
 .header__social-item:nth-child(3):hover {
@@ -57,13 +57,13 @@ header {
 .header__lang-p {
     display: block;
     width: 50px;
-    color: #093864;
+    color: var(--color-blue);
     font-size: 15px;
     font-weight: 400;
 }
 
 .chooselang__menu .header__lang-p:hover {
-    background: #093864;
+    background: var(--color-blue);
     color: #fff;
 }
 
@@ -88,15 +88,15 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
-    background: var(--color-blue005);
+    background: var(--color-blue);
     padding: 18.48px 53.66px 16.48px 53.66px;
     margin-right: -40px;
 }
 
 
 .headertop__btn:hover {
-    color: var(--color-blue005);
-    background: #ccc;
+    color: var(--color-blue);
+    background: var(--color-lightGray);
     transition-duration: .1s ;
     transition-delay: .05s;
 }
@@ -118,14 +118,14 @@ header {
 }
 
 .menu-item__text {
-    color: var(--color-gray37);
+    color: var(--color-gray);
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
 }
 
 .menu-item__text:hover {
-    color: #093864;
+    color: var(--color-blue);
     font-weight: 449.99;
 }
 
@@ -152,14 +152,14 @@ header {
     display: block;
     height: 44px;
     padding: 11px 0 11px 19px;
-    color: #373737;
+    color: var(--color-gray);
     font-size: 14px;
     font-weight: 400;
     line-height: 18.76px;
 }
 
 .navBlock li {
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid var(--color-lightGray);
 }
 
 .navBlock li:last-child {
@@ -167,7 +167,7 @@ header {
 }
 
 .navBlock-item:hover {
-    background: var(--color-blue005);
+    background: var(--color-blue);
     color: #fff;    
 }
 
@@ -194,10 +194,10 @@ header {
     position: absolute;
     width: 28px;
     height: 2px;
-    background: #005f91;
+    background: var(--color-blue);
     transition: .2s;
     transform: translateY(-10px);
-    box-shadow: 0 10px 0 #005f91;
+    box-shadow: 0 10px 0 var(--color-blue);
 }
 
 #toggle.active::before {
@@ -211,7 +211,7 @@ header {
     position: absolute;
     width: 28px;
     height: 2px;
-    background: #005f91;
+    background: var(--color-blue);
     transition: .2s;
     transform: translateY(10px);
 }
@@ -254,7 +254,6 @@ body.fixed {
     right: 0;
 }
 
-
 .toggleNav-itemTitle {
     display: block;
     height: 69px;
@@ -263,7 +262,7 @@ body.fixed {
     font-size: 15px;
     line-height: 20.1px;
     font-weight: 400;
-    border-bottom: 1px solid #d1d1d1;
+    border-bottom: 1px solid var(--color-lightGray);
     padding: 25px 0px 24px 69px;
     background-image: url(/assets/images/img/Header_etc/arrow.svg);
     background-repeat: no-repeat;
@@ -301,7 +300,7 @@ body.fixed {
 .toggleNav-item.activeinfo .toggleNav-content ul li {
     height: 69px;
     padding: 25px 0px 24px 69px;
-    border-bottom: 1px solid #d1d1d1;
+    border-bottom: 1px solid var(--color-lightGray);
 }
 
 .toggleNav-item.activeinfo .toggleNav-itemTitle {
@@ -328,17 +327,17 @@ body.fixed {
 
 .toggleNav__social .fa-facebook {
     font-size: 26px;
-    color: #e3e3e3;
+    color: var(--color-lightGray);
 }
 
 .toggleNav__social .fa-instagram {
     font-size: 25px;
-    color: #e3e3e3;
+    color: var(--color-lightGray);
 }
 
 .toggleNav__social .fa-instagram:hover,
 .toggleNav__social .fa-facebook:hover {
-    color: var(--color-blue005);
+    color: var(--color-blue);
     transition-duration: .1s;
 }
 
@@ -360,7 +359,7 @@ body.fixed {
 }
 
 .toggleNav__languages a:first-child {
-    border-right: 1px solid #5d778e;
+    border-right: 1px solid var(--color-lightGray);
 }
 
 

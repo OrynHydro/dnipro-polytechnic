@@ -24,11 +24,11 @@ body{
 }
 
 .main__block-img_overlay {
-    background: linear-gradient(180deg,#093864 0%, #005F91 100%);
+    background: linear-gradient(180deg,var(--color-blue) 0%, var(--color-blue) 100%);
 
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg,#093864 0%, var(--color-blue005) 100%);
+    background: linear-gradient(180deg,var(--color-blue) 0%, var(--color-blue) 100%);
     opacity: 0.75;
     display: flex;
     align-items: center;
@@ -80,7 +80,7 @@ body{
 }
 
 .main__block-btn:hover {
-    color: #093864;
+    color: var(--color-blue);
     background: #FFFFFF;
     border: none;
 }
@@ -100,8 +100,7 @@ body{
 }
 
 .news__title {
-    color: var(--color-blue005);
-    color: #005F91;
+    color: var(--color-blue);
 
     display: flex;
     justify-content: center;
@@ -124,7 +123,7 @@ body{
 .news__block-item {
     display: flex;
     background: #FFFFFF;
-    box-shadow: 0px 4px 20px #0000000f;
+    box-shadow: 0px 4px 20px var(--color-lightBlack);
 
     display: flex;
     width: 577px;
@@ -161,7 +160,7 @@ body{
 }
 
 .news__block-description {
-    color: #757575;
+    color: var(--color-lightGray);
 
     font-weight: 400;
     font-size: 14px;
@@ -169,7 +168,7 @@ body{
 }
 .news__block-btn {
     color: #000000;
-    border: 1px solid #B8B5B5;
+    border: 1px solid var(--color-lightGray);
 
     padding: 7px 35px;
     width: fit-content;
@@ -184,15 +183,13 @@ body{
 }
 
 .news__block-btn:hover {
-    background: var(--color-blue005);
-    border: 1px solid var(--color-blue005);
-    background: #005F91;
+    background: var(--color-blue);
+    border: 1px solid var(--color-blue);
     color: #FFFFFF;
-    border: 1px solid #005F91;
 }
 
 .news__block-date {
-    color: #898888;
+    color: var(--color-lightGray);
 
     display: flex;
     justify-content: end;
@@ -203,7 +200,7 @@ body{
 }
 
 .news__btn {
-    background: var(--color-blue005); 
+    background: var(--color-blue); 
     color: #FFFFFF;
     border: 1px solid transparent;
 
@@ -221,10 +218,9 @@ body{
 
 .news__btn:hover{
     background: #FFFFFF;
-    color: #005F91;
+    color: var(--color-blue);
     box-sizing: inherit;
-    border: 1px solid var(--color-blue005);
-    border: 1px solid #005F91;
+    border: 1px solid var(--color-blue);
 
     box-sizing: inherit;
 }

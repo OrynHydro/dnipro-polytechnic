@@ -1,7 +1,7 @@
 .PageStudens {
     display: block;
     width: 100%;
-    background-color: #fbfbfb;
+    background-color: var(--color-darkWhite);
 }
 
 .PageStudens a {
@@ -10,21 +10,21 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 20.1px;
-    background-color: var(--color-blue005);
+    background-color: var(--color-blue);
     width: 223.09px;
     padding: 16.47px 84.54px 15.47px 84.54px;
     margin: 49.53px auto 80.53px;
 }
 
 .PageStudens a:hover {
-    color: var(--color-blue005);
-    background: #ccc;
+    color: var(--color-blue);
+    background: var(--color-lightGray);
     transition-duration: .1s ;
     transition-delay: .05s;
 }
 
 .PageStudents__title {
-    color: var(--color-black1a);
+    color: var(--color-lightBlack);
     line-height: 33.5px;
     font-size: 25px;
     text-align: center;
