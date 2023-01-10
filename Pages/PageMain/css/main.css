@@ -123,7 +123,7 @@ body{
 .news__block-item {
     display: flex;
     background: #FFFFFF;
-    box-shadow: 0px 4px 20px var(--color-lightBlack);
+    box-shadow: 0px 4px 20px var(--color-lightGray);
 
     display: flex;
     width: 577px;
@@ -337,10 +337,11 @@ body{
         gap: 50px;
         width: 678px;
     }
-    
+
     .news__block-item {
         width: 678px;
         height: 373px;
+        align-items: center;
     }
     
     .news__block-img {
@@ -349,8 +350,9 @@ body{
     }
     
     .news__block-text {
-        height: 317px;
-        padding: 28px 46px 28px 60px;
+        width: 367px;
+        height: 100%;
+        padding: 0px 60px;
     }
 
     .news__block-subtitle {
@@ -361,6 +363,7 @@ body{
     }
     
     .news__block-description {
+        width: 248px;
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
