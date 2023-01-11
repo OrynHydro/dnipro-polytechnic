@@ -57,7 +57,7 @@
 .calculator__specialties {
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 68px;
     flex-wrap: wrap;
 }
 
