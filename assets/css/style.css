@@ -37,3 +37,85 @@ ul, ol {
 } 
 
 /*Используем только в оп хедере и футер топе*/
+
+/*Neris font*/
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-Black.otf);
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-BlackItalic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-BoldItalic.otf);
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-Light.otf);
+    font-weight:lighter;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-LightItalic.otf);
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-SemiBold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-SemiBoldItalic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-Thin.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Neris';
+    src: url(/assets/neris/Neris-ThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*Helvetica font*/
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_regular.otf);
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_oblique.otf);
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_lightoblique.otf);
+    font-style: italic, oblique;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_boldoblique.otf);
+    font-style: italic, oblique;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/assets/Helvetica/helvetica_bold.otf);
+    font-weight: bold;
+}
