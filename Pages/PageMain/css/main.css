@@ -229,10 +229,6 @@ body{
 
 
 @media screen and (max-width: 1024px){
-    .container {
-        width: 943px;
-    }
-
     .main__block-subtitle {
         font-weight: 300;
         font-size: 20px;
@@ -255,7 +251,7 @@ body{
     }
     .news__block {
         margin: 42px 0px 73px; 
-        gap: 20px;
+        gap: 18px;
         width: 943px;
     }
     
@@ -306,10 +302,6 @@ body{
 }
 
 @media screen and (max-width: 768px){
-    .container {
-        width: 678px;
-    }
-
     .main__block-content {
         margin-left: 96px;
     }

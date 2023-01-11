@@ -37,8 +37,21 @@ ul, ol {
 } 
 
 .container {
-    width: 1220px;
-    margin: 0 auto; 
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0px 5px; 
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 940px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 678px;
+    }
 }
 
 /*Используем только в оп хедере и футер топе*/
