@@ -7,11 +7,6 @@ body{
     overflow-x: hidden;
 }
 
-.container {
-    width: 1220px;
-    margin: 0 auto; 
-}
-
 .main__block {
     background: url("/assets/images/img/PageMain/Page1_main__img.svg") no-repeat;
 
@@ -234,10 +229,6 @@ body{
 
 
 @media screen and (max-width: 1024px){
-    .container {
-        width: 943px;
-    }
-
     .main__block-subtitle {
         font-weight: 300;
         font-size: 20px;
@@ -260,7 +251,7 @@ body{
     }
     .news__block {
         margin: 42px 0px 73px; 
-        gap: 20px;
+        gap: 18px;
         width: 943px;
     }
     
@@ -311,10 +302,6 @@ body{
 }
 
 @media screen and (max-width: 768px){
-    .container {
-        width: 678px;
-    }
-
     .main__block-content {
         margin-left: 96px;
     }
