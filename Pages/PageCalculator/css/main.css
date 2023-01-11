@@ -56,7 +56,8 @@
 
 .calculator__specialties {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 68px;
     flex-wrap: wrap;
 }
 
@@ -65,7 +66,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 14px;
-    width: 504px;
+    width: 502px;
 }
 
 .specialties__body-item {
