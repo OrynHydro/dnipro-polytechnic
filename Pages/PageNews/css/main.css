@@ -244,8 +244,9 @@
     height: 624px;
 }
 
-.dayBlock__detailsNav.heightNew .NavBottom-title {
-    background-image: none;
+.dayBlock__detailsNav.heightNew .NavBottom-title{
+    background-image: url(/assets/images/img/PageNews/reshot-icon-arrow-chevron-up-9ECRMJ2GNT.svg);
+    transition: .2s;
 }
 
 .NavBottom-title {
@@ -256,10 +257,10 @@
     color: #000;
     font-weight: 600;
     margin-top: 63px;
-    background-image: url(/assets/images/img/PageInstitutes/instituedetails.svg);
+    background-image: url(/assets/images/img/PageNews/reshot-icon-arrow-chevron-down-EUCMLYADT9.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: 12px;
+    background-position-y: 4px;
     cursor: pointer;
 }
 
