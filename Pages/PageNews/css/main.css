@@ -238,6 +238,7 @@
     align-items: center;
     margin-bottom: 99px;
     display: none;
+    transition: height .2s;
 }
 
 .dayBlock__detailsNav.heightNew {
