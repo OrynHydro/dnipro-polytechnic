@@ -277,3 +277,15 @@
     font-size: 14px;
     line-height: 19px;
 }
+
+@media screen and (max-width: 1024px) {
+    .calculator__specialties-body {
+        width: 775px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .specialties__found_in-body {
+        width: 502px;
+    }
+}
